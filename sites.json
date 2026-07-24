@@ -10,9 +10,9 @@
 
   "defaults": {
     "branding": {
-      "useGeneratedLogo": true,
-      "generatedLogoStyle": "text",
+      "generateLogo": true,
       "themeColor": "#E50914",
+      "accentColor": "#FF9800",
       "backgroundColor": "#121212",
       "textColor": "#FFFFFF"
     },
@@ -35,9 +35,25 @@
     }
   },
 
+  "categories": [
+    {
+      "id": "anime-dublado",
+      "name": "Anime Dublado",
+      "icon": "movie_filter",
+      "color": "#FF9800"
+    },
+    {
+      "id": "filmes-series",
+      "name": "Filmes e Séries",
+      "icon": "movie",
+      "color": "#2196F3"
+    }
+  ],
+
   "sites": [
     {
       "id": "animexhd",
+
       "name": "Animex HD",
       "displayName": "Animex HD",
 
@@ -66,7 +82,7 @@
       },
 
       "description": {
-        "short": "Animes dublados em HD.",
+        "short": "Animes dublados.",
         "full": ""
       },
 
@@ -86,6 +102,7 @@
       "info": {
         "language": "pt-BR",
         "country": "BR",
+
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
@@ -110,113 +127,72 @@
       },
 
       "compatibility": {
-        "adBlock": "full"
+        "adBlock": "full",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false,
+        "externalPlayer": false
       },
 
-      "settings": {},
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true,
+        "desktopMode": false,
+        "allowMixedContent": false
+      },
+
+      "search": {
+        "enabled": true,
+        "keywords": [
+          "anime",
+          "dublado"
+        ]
+      },
+
+      "links": {
+        "website": "https://animexhd.xyz/",
+        "telegram": "",
+        "discord": "",
+        "facebook": "",
+        "instagram": ""
+      },
+
+      "supportedFeatures": {
+        "search": true,
+        "continueWatching": false,
+        "history": false,
+        "bookmarks": false,
+        "notifications": false,
+        "darkMode": true
+      },
 
       "stats": {
         "verified": true,
         "recommended": true,
         "featured": false,
         "new": false,
+        "favorite": false,
         "popularity": 95
       },
 
       "rating": {
         "score": 4.8,
         "votes": 0
-      }
-    },
-
-    {
-      "id": "meusanimes",
-      "name": "Meus Animes",
-      "displayName": "Meus Animes",
-
-      "url": "https://meusanimes.blog/g/dublado",
-      "homepage": "https://meusanimes.blog",
-
-      "enabled": true,
-
-      "category": "Anime Dublado",
-      "subcategory": "Anime",
-
-      "branding": {
-        "logo": "https://meusanimes.blog/wp-content/uploads/2025/12/meusanimesblog.png",
-        "logoDark": "",
-        "logoLight": "",
-        "favicon": "https://meusanimes.blog/favicon.ico",
-        "banner": "",
-        "cover": "",
-
-        "generateLogo": false,
-
-        "themeColor": "#FF5A00",
-        "accentColor": "#FF9800",
-        "backgroundColor": "#121212",
-        "textColor": "#FFFFFF"
       },
 
-      "description": {
-        "short": "Animes dublados em português.",
-        "full": ""
+      "analytics": {
+        "launches": 0,
+        "favorites": 0
       },
 
-      "tags": [
-        "Anime",
-        "Dublado",
-        "HD"
-      ],
-
-      "status": {
-        "online": true,
-        "maintenance": false,
-        "lastChecked": ""
-      },
-
-      "info": {
-        "language": "pt-BR",
-        "country": "BR",
-        "ads": true,
-        "loginRequired": false,
-        "vpnRequired": false,
-
-        "quality": [
-          "HD"
-        ],
-
-        "audio": [
-          "Dublado"
-        ]
-      },
-
-      "notice": {
-        "enabled": false,
-        "type": "info",
-        "title": "",
-        "message": "",
-        "priority": "normal",
-        "showOnce": false
-      },
-
-      "compatibility": {
-        "adBlock": "partial"
-      },
-
-      "settings": {},
-
-      "stats": {
-        "verified": true,
-        "recommended": true,
-        "featured": true,
-        "new": false,
-        "popularity": 99
-      },
-
-      "rating": {
-        "score": 5.0,
-        "votes": 0
+      "remote": {
+        "hidden": false,
+        "deprecated": false,
+        "forceDisable": false,
+        "priority": 0,
+        "sortOrder": 1
       }
     }
   ]
