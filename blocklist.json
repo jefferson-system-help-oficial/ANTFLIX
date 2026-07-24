@@ -1,8 +1,21 @@
 {
-  "version": 1,
+  "version": 2,
+  "updated": "2026-07-24",
+
   "blockedHosts": [
-    "example-popup.com",
-    "tracking.example",
-    "redirect.example"
-  ]
+    "spix.adangle.online",
+    "play.octplay.com",
+    "theshowdrumatic.com"
+  ],
+
+  "categories": {
+    "ads": [
+      "spix.adangle.online",
+      "play.octplay.com"
+    ],
+
+    "popup": [
+      "theshowdrumatic.com"
+    ]
+  }
 }
