@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -44,6 +44,18 @@
       "url": "https://goyabu.io/inicio",
       "enabled": true,
       "category": "Anime Dublado",
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+    {
+      "id": "pobreflixtv",
+      "name": "PobreFlix TV",
+      "url": "https://www.pobreflixtv.latino/",
+      "enabled": true,
+      "category": "Filmes e Séries",
       "settings": {
         "javascript": true,
         "cookies": true,
