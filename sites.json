@@ -42,7 +42,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/animesonlinecc.json"
     },
     {
       "id": "animexhd",
@@ -84,7 +85,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/animexhd.json"
     },
     {
       "id": "goyabu",
@@ -126,7 +128,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/goyabu.json"
     },
     {
       "id": "meusanimes",
@@ -167,7 +170,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/meusanimes.json"
     },
     {
       "id": "megafilmeseserieshd",
@@ -209,7 +213,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/megafilmeseserieshd.json"
     },
     {
       "id": "rededecanais",
@@ -251,7 +256,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/rededecanais.json"
     },
     {
       "id": "start",
@@ -293,7 +299,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/start.json"
     },
     {
       "id": "tichofilm",
@@ -335,7 +342,8 @@
         "javascript": true,
         "cookies": true,
         "fullscreen": true
-      }
+      },
+      "source": "sites/tichofilm.json"
     }
   ]
 }

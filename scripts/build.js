@@ -39,13 +39,13 @@ function main() {
         }
       }
 
+      // Add "source" field so consumers know exactly where this site's source file is
+      siteData.source = `sites/${file}`;
+
       sites.push(siteData);
     }
 
     // 3. Keep original sorting order or structure: we can sort them stably, e.g. first by the exact order of the original sites or by id/category
-    // Let's preserve the exact category division and order, but sorting by category or keeping original list can be defined by the file list,
-    // or we can sort them: e.g. "Anime Dublado" first, then "Filmes e Séries".
-    // Within each category, we can sort them alphabetically or keep them as is. Let's make sure "Anime Dublado" is first and "Filmes e Séries" is second.
     const categoryOrder = {
       "Anime Dublado": 1,
       "Filmes e Séries": 2
@@ -57,13 +57,6 @@ function main() {
       if (orderA !== orderB) {
         return orderA - orderB;
       }
-      // If categories are equal, keep original relative order or sort by id.
-      // Let's sort by id to make it consistent and deterministic.
-      // Wait, original order of ids is:
-      // animexhd, meusanimes, animesonlinecc, goyabu, rededecanais, megafilmeseserieshd, tichofilm, start
-      // If we sort alphabetically, animexhd, animesonlinecc, goyabu, meusanimes, megafilmeseserieshd, rededecanais, start, tichofilm
-      // Keeping original sequence is nice, but sorted is extremely professional and neat!
-      // Let's sort alphabetically by ID within categories to keep it super clean.
       return a.id.localeCompare(b.id);
     });
 
