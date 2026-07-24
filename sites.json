@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -18,6 +18,18 @@
       "id": "meusanimes",
       "name": "Meus Animes",
       "url": "https://meusanimes.blog/g/dublado",
+      "enabled": true,
+      "category": "Anime Dublado",
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+    {
+      "id": "animesonlinecc",
+      "name": "Animes Online CC",
+      "url": "https://animesonlinecc.to/genero/dublado/",
       "enabled": true,
       "category": "Anime Dublado",
       "settings": {
