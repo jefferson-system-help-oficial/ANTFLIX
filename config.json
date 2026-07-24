@@ -1,13 +1,7 @@
 {
   "version": 1,
-  "sites": [
-    {
-      "id": "goyabu",
-      "enabled": true
-    },
-    {
-      "id": "pobreflixtv",
-      "enabled": true
-    }
-  ]
+  "minAppVersion": 1,
+  "cacheHours": 12,
+  "forceUpdate": false,
+  "github": "https://raw.githubusercontent.com/jefferson-system-help-oficial/ANTFLIX/main/"
 }
