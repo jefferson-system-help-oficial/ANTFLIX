@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "id": "goyabu",
+      "enabled": true
+    },
+    {
+      "id": "pobreflixtv",
+      "enabled": true
+    }
+  ]
+}
