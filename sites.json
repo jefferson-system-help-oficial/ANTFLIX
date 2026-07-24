@@ -51,9 +51,9 @@
       }
     },
     {
-      "id": "filmemachen",
-      "name": "filme-machen TV",
-      "url": "https://www.startflix.biz",
+      "id": "rededecanais",
+      "name": "REDE DE CANAIS",
+      "url": "https://redecanaishd.surf/",
       "enabled": true,
       "category": "Filmes e Séries",
       "settings": {
