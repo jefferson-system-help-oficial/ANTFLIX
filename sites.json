@@ -7,14 +7,24 @@
       "name": "Animex HD",
       "url": "https://animexhd.xyz/tag/animes-dublado/",
       "enabled": true,
-      "category": "Anime Dublado"
+      "category": "Anime Dublado",
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
     },
     {
       "id": "meusanimes",
       "name": "Meus Animes",
       "url": "https://meusanimes.blog/g/dublado",
       "enabled": true,
-      "category": "Anime Dublado"
+      "category": "Anime Dublado",
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
     }
   ]
 }
