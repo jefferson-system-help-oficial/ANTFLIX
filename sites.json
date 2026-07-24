@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -13,6 +13,13 @@
       "id": "meusanimes",
       "name": "Meus Animes",
       "url": "https://meusanimes.blog/g/dublado",
+      "enabled": true,
+      "category": "Anime Dublado"
+    },
+    {
+      "id": "sushianimes",
+      "name": "Sushi Animes",
+      "url": "https://sushianimes.com.br/",
       "enabled": true,
       "category": "Anime Dublado"
     }
