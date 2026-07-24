@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -8,54 +8,213 @@
       "url": "https://animexhd.xyz/tag/animes-dublado/",
       "enabled": true,
       "category": "Anime Dublado",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": ["HD", "FULL HD"]
+      },
+
+      "notice": {
+        "enabled": false,
+        "type": "info",
+        "title": "",
+        "message": "",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "full",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
       "settings": {
         "javascript": true,
         "cookies": true,
         "fullscreen": true
       }
     },
+
     {
       "id": "meusanimes",
       "name": "Meus Animes",
       "url": "https://meusanimes.blog/g/dublado",
       "enabled": true,
       "category": "Anime Dublado",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": ["HD"]
+      },
+
+      "notice": {
+        "enabled": false,
+        "type": "info",
+        "title": "",
+        "message": "",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
       "settings": {
         "javascript": true,
         "cookies": true,
         "fullscreen": true
       }
     },
+
     {
       "id": "animesonlinecc",
       "name": "Animes Online CC",
       "url": "https://animesonlinecc.to/genero/dublado/",
       "enabled": true,
       "category": "Anime Dublado",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": ["HD", "FULL HD"]
+      },
+
+      "notice": {
+        "enabled": false,
+        "type": "info",
+        "title": "",
+        "message": "",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
       "settings": {
         "javascript": true,
         "cookies": true,
         "fullscreen": true
       }
     },
+
     {
       "id": "goyabu",
       "name": "Goyabu",
       "url": "https://goyabu.io/inicio",
       "enabled": true,
       "category": "Anime Dublado",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": ["HD", "FULL HD"]
+      },
+
+      "notice": {
+        "enabled": false,
+        "type": "info",
+        "title": "",
+        "message": "",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
       "settings": {
         "javascript": true,
         "cookies": true,
         "fullscreen": true
       }
     },
+
     {
       "id": "rededecanais",
       "name": "REDE DE CANAIS",
       "url": "https://redecanaishd.surf/",
       "enabled": true,
       "category": "Filmes e Séries",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": ["HD", "FULL HD"]
+      },
+
+      "notice": {
+        "enabled": true,
+        "type": "warning",
+        "title": "Aviso",
+        "message": "Este site pode exibir anúncios próprios. Alguns anúncios fazem parte do funcionamento do site e não podem ser removidos pelo ANTFLIX.",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
       "settings": {
         "javascript": true,
         "cookies": true,
