@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -28,8 +28,20 @@
     },
     {
       "id": "animesonlinecc",
-      "name": "Animes Onlines CC",
+      "name": "Animes Online CC",
       "url": "https://animesonlinecc.to/genero/dublado/",
+      "enabled": true,
+      "category": "Anime Dublado",
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+    {
+      "id": "goyabu",
+      "name": "Goyabu",
+      "url": "https://goyabu.io/inicio",
       "enabled": true,
       "category": "Anime Dublado",
       "settings": {
