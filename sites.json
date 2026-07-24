@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 8.1,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -19,7 +19,10 @@
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD", "FULL HD"]
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
       },
 
       "notice": {
@@ -63,7 +66,9 @@
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD"]
+        "quality": [
+          "HD"
+        ]
       },
 
       "notice": {
@@ -107,7 +112,10 @@
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD", "FULL HD"]
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
       },
 
       "notice": {
@@ -151,7 +159,10 @@
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD", "FULL HD"]
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
       },
 
       "notice": {
@@ -195,7 +206,57 @@
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD", "FULL HD"]
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
+      },
+
+      "notice": {
+        "enabled": true,
+        "type": "warning",
+        "title": "Aviso",
+        "message": "Este site pode exibir anúncios próprios. Alguns anúncios fazem parte do funcionamento do site e não podem ser removidos pelo ANTFLIX.",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+
+    {
+      "id": "tichofilm",
+      "name": "TichoFilm",
+      "url": "https://tichofilm.com/",
+      "enabled": true,
+      "category": "Filmes e Séries",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
       },
 
       "notice": {
