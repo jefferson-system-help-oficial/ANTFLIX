@@ -1,1 +1,10 @@
-[ { "id": 1001, "title": "Bem-vindo!", "message": "Obrigado por utilizar o ANTFLIX.", "type": "info", "priority": "normal", "showOnce": true, "dismissible": true, "enabled": true }, { "id": 1002, "title": "Novo Site", "message": "Acabamos de adicionar uma nova fonte de filmes e séries.", "type": "news", "priority": "high", "showOnce": true, "dismissible": true, "enabled": true } ]
+{
+  "id": 1003,
+  "title": "⚠️ Atenção – Manutenção",
+  "message": "Estamos realizando ajustes no serviço. Algumas fontes podem apresentar instabilidade momentânea. Agradecemos a compreensão.",
+  "type": "warning",
+  "priority": "high",
+  "showOnce": false,
+  "dismissible": true,
+  "enabled": true
+}
