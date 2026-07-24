@@ -1,110 +1,28 @@
-{
-  "version": 9,
+ola vamos fazer ajustes  {
+  "version": 10.1,
   "updated": "2026-07-24",
-
-  "app": {
-    "name": "ANTFLIX",
-    "minimumVersion": "1.0.0",
-    "database": "Official Sites"
-  },
-
-  "defaults": {
-    "branding": {
-      "generateLogo": true,
-      "themeColor": "#E50914",
-      "accentColor": "#FF9800",
-      "backgroundColor": "#121212",
-      "textColor": "#FFFFFF",
-      "logoFallback": {
-        "enabled": true,
-        "type": "text",
-        "textColor": "#FFFFFF",
-        "backgroundColor": "#E50914",
-        "fontSize": 18,
-        "fontWeight": "bold",
-        "shape": "circle"
-      }
-    },
-
-    "compatibility": {
-      "adBlock": "partial",
-      "popupBlock": true,
-      "cast": true,
-      "pictureInPicture": true,
-      "download": false,
-      "externalPlayer": false
-    },
-
-    "settings": {
-      "javascript": true,
-      "cookies": true,
-      "fullscreen": true,
-      "desktopMode": false,
-      "allowMixedContent": false
-    }
-  },
-
-  "categories": [
-    {
-      "id": "anime-dublado",
-      "name": "Anime Dublado",
-      "icon": "movie_filter",
-      "color": "#FF9800"
-    },
-    {
-      "id": "filmes-series",
-      "name": "Filmes e Séries",
-      "icon": "movie",
-      "color": "#2196F3"
-    }
-  ],
-
   "sites": [
     {
       "id": "animexhd",
       "name": "Animex HD",
-      "displayName": "Animex HD",
       "url": "https://animexhd.xyz/tag/animes-dublado/",
-      "homepage": "https://animexhd.xyz/",
       "enabled": true,
       "category": "Anime Dublado",
-      "subcategory": "Anime",
-
-      "branding": {
-        "logo": "",
-        "logoDark": "",
-        "logoLight": "",
-        "favicon": "",
-        "banner": "",
-        "cover": "",
-        "generateLogo": true,
-        "themeColor": "#E50914",
-        "accentColor": "#FF9800",
-        "backgroundColor": "#121212",
-        "textColor": "#FFFFFF"
-      },
-
-      "description": {
-        "short": "Animes dublados.",
-        "full": ""
-      },
-
-      "tags": ["Anime", "Dublado", "HD", "Full HD"],
 
       "status": {
         "online": true,
-        "maintenance": false,
-        "lastChecked": ""
+        "maintenance": false
       },
 
       "info": {
         "language": "pt-BR",
-        "country": "BR",
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD", "FULL HD"],
-        "audio": ["Dublado"]
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
       },
 
       "notice": {
@@ -121,121 +39,36 @@
         "popupBlock": true,
         "cast": true,
         "pictureInPicture": true,
-        "download": false,
-        "externalPlayer": false
+        "download": false
       },
 
       "settings": {
         "javascript": true,
         "cookies": true,
-        "fullscreen": true,
-        "desktopMode": false,
-        "allowMixedContent": false
-      },
-
-      "search": {
-        "enabled": true,
-        "keywords": ["anime", "dublado"]
-      },
-
-      "links": {
-        "website": "https://animexhd.xyz/",
-        "telegram": "",
-        "discord": "",
-        "facebook": "",
-        "instagram": ""
-      },
-
-      "supportedFeatures": {
-        "search": true,
-        "continueWatching": false,
-        "history": false,
-        "bookmarks": false,
-        "notifications": false,
-        "darkMode": true
-      },
-
-      "stats": {
-        "verified": true,
-        "recommended": true,
-        "featured": false,
-        "new": false,
-        "favorite": false,
-        "popularity": 95
-      },
-
-      "rating": {
-        "score": 4.8,
-        "votes": 0
-      },
-
-      "analytics": {
-        "launches": 0,
-        "favorites": 0
-      },
-
-      "remote": {
-        "hidden": false,
-        "deprecated": false,
-        "forceDisable": false,
-        "priority": 0,
-        "sortOrder": 1
-      },
-
-      "episodes": {
-        "enabled": true,
-        "urlPattern": "https://meusanimes.blog/g/dublado/",
-        "totalEpisodes": 0,
-        "currentSeason": 1,
-        "totalSeasons": 0,
-        "list": []
+        "fullscreen": true
       }
     },
+
     {
       "id": "meusanimes",
       "name": "Meus Animes",
-      "displayName": "Meus Animes",
-      "url": "https://meusanimes.blog/g/dublado/",
-      "homepage": "https://meusanimes.blog/",
+      "url": "https://meusanimes.blog/g/dublado",
       "enabled": true,
       "category": "Anime Dublado",
-      "subcategory": "Anime",
-
-      "branding": {
-        "logo": "https://meusanimes.blog/wp-content/uploads/2025/12/meusanimesblog.png",
-        "logoDark": "",
-        "logoLight": "",
-        "favicon": "",
-        "banner": "",
-        "cover": "",
-        "generateLogo": true,
-        "themeColor": "#E50914",
-        "accentColor": "#FF9800",
-        "backgroundColor": "#121212",
-        "textColor": "#FFFFFF"
-      },
-
-      "description": {
-        "short": "Animes dublados e legendados.",
-        "full": ""
-      },
-
-      "tags": ["Anime", "Dublado", "Legendado"],
 
       "status": {
         "online": true,
-        "maintenance": false,
-        "lastChecked": ""
+        "maintenance": false
       },
 
       "info": {
         "language": "pt-BR",
-        "country": "BR",
         "ads": true,
         "loginRequired": false,
         "vpnRequired": false,
-        "quality": ["HD"],
-        "audio": ["Dublado", "Legendado"]
+        "quality": [
+          "HD"
+        ]
       },
 
       "notice": {
@@ -252,74 +85,201 @@
         "popupBlock": true,
         "cast": true,
         "pictureInPicture": true,
-        "download": false,
-        "externalPlayer": false
+        "download": false
       },
 
       "settings": {
         "javascript": true,
         "cookies": true,
-        "fullscreen": true,
-        "desktopMode": false,
-        "allowMixedContent": false
+        "fullscreen": true
+      }
+    },
+
+    {
+      "id": "animesonlinecc",
+      "name": "Animes Online CC",
+      "url": "https://animesonlinecc.to/genero/dublado/",
+      "enabled": true,
+      "category": "Anime Dublado",
+
+      "status": {
+        "online": true,
+        "maintenance": false
       },
 
-      "search": {
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
+      },
+
+      "notice": {
+        "enabled": false,
+        "type": "info",
+        "title": "",
+        "message": "",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+
+    {
+      "id": "goyabu",
+      "name": "Goyabu",
+      "url": "https://goyabu.io/inicio",
+      "enabled": true,
+      "category": "Anime Dublado",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
+      },
+
+      "notice": {
+        "enabled": false,
+        "type": "info",
+        "title": "",
+        "message": "",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+
+    {
+      "id": "rededecanais",
+      "name": "REDE DE CANAIS",
+      "url": "https://redecanaishd.surf/",
+      "enabled": true,
+      "category": "Filmes e Séries",
+
+      "status": {
+        "online": true,
+        "maintenance": false
+      },
+
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
+      },
+
+      "notice": {
         "enabled": true,
-        "keywords": ["anime", "dublado", "legendado"]
+        "type": "warning",
+        "title": "Aviso",
+        "message": "Este site pode exibir anúncios próprios. Alguns anúncios fazem parte do funcionamento do site e não podem ser removidos pelo ANTFLIX.",
+        "priority": "normal",
+        "showOnce": false
       },
 
-      "links": {
-        "website": "https://meusanimes.blog/",
-        "telegram": "",
-        "discord": "",
-        "facebook": "",
-        "instagram": ""
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
       },
 
-      "supportedFeatures": {
-        "search": true,
-        "continueWatching": false,
-        "history": false,
-        "bookmarks": false,
-        "notifications": false,
-        "darkMode": true
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
+      }
+    },
+
+    {
+      "id": "tichofilm",
+      "name": "TichoFilm",
+      "url": "https://tichofilm.com/",
+      "enabled": true,
+      "category": "Filmes e Séries",
+
+      "status": {
+        "online": true,
+        "maintenance": false
       },
 
-      "stats": {
-        "verified": true,
-        "recommended": true,
-        "featured": true,
-        "new": false,
-        "favorite": false,
-        "popularity": 85
+      "info": {
+        "language": "pt-BR",
+        "ads": true,
+        "loginRequired": false,
+        "vpnRequired": false,
+        "quality": [
+          "HD",
+          "FULL HD"
+        ]
       },
 
-      "rating": {
-        "score": 4.5,
-        "votes": 0
-      },
-
-      "analytics": {
-        "launches": 0,
-        "favorites": 0
-      },
-
-      "remote": {
-        "hidden": false,
-        "deprecated": false,
-        "forceDisable": false,
-        "priority": 1,
-        "sortOrder": 2
-      },
-
-      "episodes": {
+      "notice": {
         "enabled": true,
-        "urlPattern": "https://meusanimes.blog/g/dublado/",
-        "totalEpisodes": 0,
-        "currentSeason": 1,
-        "totalSeasons": 0,
-        "list": []
+        "type": "warning",
+        "title": "Aviso",
+        "message": "Este site pode exibir anúncios próprios. Alguns anúncios fazem parte do funcionamento do site e não podem ser removidos pelo ANTFLIX.",
+        "priority": "normal",
+        "showOnce": false
+      },
+
+      "compatibility": {
+        "adBlock": "partial",
+        "popupBlock": true,
+        "cast": true,
+        "pictureInPicture": true,
+        "download": false
+      },
+
+      "settings": {
+        "javascript": true,
+        "cookies": true,
+        "fullscreen": true
       }
     }
   ]
