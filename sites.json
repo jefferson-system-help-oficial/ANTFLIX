@@ -6,6 +6,7 @@
       "id": "animexhd",
       "name": "Animex HD",
       "url": "https://animexhd.xyz/tag/animes-dublado/",
+      "logo": "",
       "enabled": true,
       "category": "Anime Dublado",
 
@@ -53,6 +54,7 @@
       "id": "meusanimes",
       "name": "Meus Animes",
       "url": "https://meusanimes.blog/g/dublado",
+      "logo": "https://meusanimes.blog/wp-content/uploads/2025/12/meusanimesblog.png",
       "enabled": true,
       "category": "Anime Dublado",
 
@@ -99,6 +101,7 @@
       "id": "animesonlinecc",
       "name": "Animes Online CC",
       "url": "https://animesonlinecc.to/genero/dublado/",
+      "logo": "",
       "enabled": true,
       "category": "Anime Dublado",
 
@@ -146,6 +149,7 @@
       "id": "goyabu",
       "name": "Goyabu",
       "url": "https://goyabu.io/inicio",
+      "logo": "",
       "enabled": true,
       "category": "Anime Dublado",
 
@@ -193,6 +197,7 @@
       "id": "rededecanais",
       "name": "REDE DE CANAIS",
       "url": "https://redecanaishd.surf/",
+      "logo": "",
       "enabled": true,
       "category": "Filmes e Séries",
 
@@ -240,6 +245,7 @@
       "id": "tichofilm",
       "name": "TichoFilm",
       "url": "https://tichofilm.com/",
+      "logo": "",
       "enabled": true,
       "category": "Filmes e Séries",
 
