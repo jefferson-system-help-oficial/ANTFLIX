@@ -1,6 +1,6 @@
 {
   "id": 1003,
-  "title": "⚠️ Atenção – Manutenção",
+  "title": "⚠️ Atenção ",
   "message": "Estamos realizando ajustes no serviço. Algumas fontes podem apresentar instabilidade momentânea. Agradecemos a compreensão.",
   "type": "warning",
   "priority": "high",
