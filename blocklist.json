@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "blockedHosts": [
+    "example-popup.com",
+    "tracking.example",
+    "redirect.example"
+  ]
+}
