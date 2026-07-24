@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "features": {
+    "disableLongPress": true,
+    "disableZoom": false,
+    "disableSelection": true,
+    "openExternalLinks": false,
+    "clearCookiesOnExit": false
+  }
+}
