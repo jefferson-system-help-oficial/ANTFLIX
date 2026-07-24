@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "settings": {
+    "javascript": true,
+    "domStorage": true,
+    "supportMultipleWindows": false,
+    "allowFileAccess": false,
+    "allowContentAccess": false,
+    "mixedContentMode": "compatibility"
+  }
+}
