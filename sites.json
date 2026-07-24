@@ -51,9 +51,9 @@
       }
     },
     {
-      "id": "pobreflixtv",
-      "name": "PobreFlix TV",
-      "url": "https://www.pobreflixtv.latino/",
+      "id": "filmemachen",
+      "name": "filme-machen TV",
+      "url": "https://filme-machen.com/",
       "enabled": true,
       "category": "Filmes e Séries",
       "settings": {
