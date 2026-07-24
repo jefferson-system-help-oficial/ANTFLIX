@@ -1,0 +1,42 @@
+{
+  "id": "animesonlinecc",
+  "name": "Animes Online CC",
+  "url": "https://animesonlinecc.to/genero/dublado/",
+  "logo": "",
+  "enabled": true,
+  "category": "Anime Dublado",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": false,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": false,
+    "type": "info",
+    "title": "",
+    "message": "",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
