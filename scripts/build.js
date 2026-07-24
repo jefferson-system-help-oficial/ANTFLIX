@@ -4,6 +4,9 @@ const path = require('path');
 const SITES_DIR = path.join(__dirname, '..', 'sites');
 const OUTPUT_FILE = path.join(__dirname, '..', 'sites.json');
 
+// Subdirectories we want to scan under sites/
+const SUB_DIRS = ['animes', 'filmes', 'tv', 'adultos'];
+
 function main() {
   try {
     // 1. Read metadata.json
@@ -13,39 +16,45 @@ function main() {
     }
     const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf8'));
 
-    // 2. Read all json files in sites/ directory excluding metadata.json
-    const files = fs.readdirSync(SITES_DIR);
+    // 2. Read all json files in specified subdirectories under sites/
     const sites = [];
 
-    for (const file of files) {
-      if (file === 'metadata.json') continue;
-      if (!file.endsWith('.json')) continue;
-
-      const filepath = path.join(SITES_DIR, file);
-      const content = fs.readFileSync(filepath, 'utf8');
-
-      let siteData;
-      try {
-        siteData = JSON.parse(content);
-      } catch (err) {
-        throw new Error(`Error parsing JSON in file ${file}: ${err.message}`);
+    for (const subDir of SUB_DIRS) {
+      const fullSubDirPath = path.join(SITES_DIR, subDir);
+      if (!fs.existsSync(fullSubDirPath)) {
+        continue; // Skip if directory does not exist yet
       }
 
-      // Basic validation
-      const requiredFields = ['id', 'name', 'url', 'enabled', 'category'];
-      for (const field of requiredFields) {
-        if (siteData[field] === undefined) {
-          throw new Error(`Missing required field '${field}' in site file: ${file}`);
+      const files = fs.readdirSync(fullSubDirPath);
+      for (const file of files) {
+        if (!file.endsWith('.json')) continue;
+
+        const filepath = path.join(fullSubDirPath, file);
+        const content = fs.readFileSync(filepath, 'utf8');
+
+        let siteData;
+        try {
+          siteData = JSON.parse(content);
+        } catch (err) {
+          throw new Error(`Error parsing JSON in file ${subDir}/${file}: ${err.message}`);
         }
+
+        // Basic validation
+        const requiredFields = ['id', 'name', 'url', 'enabled', 'category'];
+        for (const field of requiredFields) {
+          if (siteData[field] === undefined) {
+            throw new Error(`Missing required field '${field}' in site file: ${subDir}/${file}`);
+          }
+        }
+
+        // Add "source" field pointing to the correct subfolder
+        siteData.source = `sites/${subDir}/${file}`;
+
+        sites.push(siteData);
       }
-
-      // Add "source" field so consumers know exactly where this site's source file is
-      siteData.source = `sites/${file}`;
-
-      sites.push(siteData);
     }
 
-    // 3. Keep original sorting order or structure: we can sort them stably, e.g. first by the exact order of the original sites or by id/category
+    // 3. Sorting order based on category
     const categoryOrder = {
       "Anime Dublado": 1,
       "Filmes e Séries": 2
