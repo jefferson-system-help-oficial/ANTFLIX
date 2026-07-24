@@ -254,9 +254,9 @@
       }
     },
     {
-      "id": "seriesflixon",
-      "name": "SeriesFlix ON",
-      "url": "https://www.seriesflixon.com/",
+      "id": "start",
+      "name": "start ON",
+      "url": "https://www.startflix.biz",
       "logo": "",
       "enabled": true,
       "category": "Filmes e Séries",
