@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated": "2026-07-24",
+  "sites": [
+    {
+      "id": "animexhd",
+      "name": "Animex HD",
+      "url": "https://animexhd.xyz/tag/animes-dublado/",
+      "enabled": true,
+      "category": "Anime Dublado"
+    },
+    {
+      "id": "meusanimes",
+      "name": "Meus Animes",
+      "url": "https://meusanimes.blog/g/dublado",
+      "enabled": true,
+      "category": "Anime Dublado"
+    }
+  ]
+}
