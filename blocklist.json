@@ -1,21 +1,117 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-07-24",
+  "description": "ANTFLIX - Lista de bloqueio de anúncios, popups e rastreadores",
 
   "blockedHosts": [
     "spix.adangle.online",
     "play.octplay.com",
-    "theshowdrumatic.com"
+    "theshowdrumatic.com",
+
+    "doubleclick.net",
+    "googleadservices.com",
+    "googlesyndication.com",
+    "adservice.google.com",
+
+    "taboola.com",
+    "outbrain.com",
+    "mgid.com",
+
+    "popads.net",
+    "popcash.net",
+    "propellerads.com",
+    "onclickads.net",
+
+    "exoclick.com",
+    "juicyads.com",
+    "adsterra.com",
+    "hilltopads.net",
+
+    "adnxs.com",
+    "adsrvr.org",
+    "advertising.com",
+
+    "criteo.com",
+    "quantserve.com",
+    "scorecardresearch.com",
+
+    "hotjar.com",
+    "mouseflow.com",
+    "fullstory.com",
+
+    "adform.net",
+    "smartadserver.com",
+    "openx.net",
+    "rubiconproject.com"
   ],
 
   "categories": {
+
     "ads": [
       "spix.adangle.online",
-      "play.octplay.com"
+      "play.octplay.com",
+
+      "doubleclick.net",
+      "googleadservices.com",
+      "googlesyndication.com",
+      "adservice.google.com",
+
+      "taboola.com",
+      "outbrain.com",
+      "mgid.com",
+
+      "popads.net",
+      "popcash.net",
+      "propellerads.com",
+      "onclickads.net",
+
+      "exoclick.com",
+      "juicyads.com",
+      "adsterra.com",
+      "hilltopads.net"
     ],
 
     "popup": [
+      "theshowdrumatic.com",
+
+      "popads.net",
+      "popcash.net",
+      "onclickads.net"
+    ],
+
+    "tracker": [
+      "hotjar.com",
+      "mouseflow.com",
+      "fullstory.com",
+
+      "quantserve.com",
+      "scorecardresearch.com",
+
+      "criteo.com",
+      "adnxs.com",
+      "adsrvr.org"
+    ],
+
+    "analytics": [
+      "google-analytics.com",
+      "analytics.google.com",
+
+      "adform.net",
+      "smartadserver.com"
+    ],
+
+    "redirect": [
+      "spix.adangle.online",
+      "play.octplay.com",
       "theshowdrumatic.com"
     ]
+  },
+
+  "rules": {
+    "blockAds": true,
+    "blockPopups": true,
+    "blockTrackers": true,
+    "blockRedirects": true,
+    "recoverNavigation": true
   }
 }
