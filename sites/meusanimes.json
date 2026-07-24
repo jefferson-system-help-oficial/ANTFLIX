@@ -1,0 +1,41 @@
+{
+  "id": "meusanimes",
+  "name": "Meus Animes",
+  "url": "https://meusanimes.blog/g/dublado",
+  "logo": "https://meusanimes.blog/wp-content/uploads/2025/12/meusanimesblog.png",
+  "enabled": true,
+  "category": "Anime Dublado",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": false,
+    "vpnRequired": false,
+    "quality": [
+      "HD"
+    ]
+  },
+  "notice": {
+    "enabled": false,
+    "type": "info",
+    "title": "",
+    "message": "",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}

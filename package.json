@@ -1,0 +1,16 @@
+{
+  "name": "antflix-sites",
+  "version": "1.0.0",
+  "description": "Antflix centralized sites registry",
+  "main": "sites.json",
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "antflix",
+    "sites",
+    "registry"
+  ],
+  "author": "",
+  "license": "ISC"
+}
