@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-07-24",
   "sites": [
     {
@@ -13,13 +13,6 @@
       "id": "meusanimes",
       "name": "Meus Animes",
       "url": "https://meusanimes.blog/g/dublado",
-      "enabled": true,
-      "category": "Anime Dublado"
-    },
-    {
-      "id": "animesdigital",
-      "name": "Animes Digital",
-      "url": "https://animesdigital.org/animes-dublado001?filter_letter=0&type_url=animes&filter_audio=dublado&filter_order=name&filter_genre_add=&filter_genre_del=&pagina=1&search=0&limit=30",
       "enabled": true,
       "category": "Anime Dublado"
     }
