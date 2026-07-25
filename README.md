@@ -4,30 +4,59 @@ Repositório central de configuração de sites, regras de webview, listas de bl
 
 ---
 
-## 📂 Estrutura de Pastas
+## 🗺️ Roadmap da Estrutura de Pastas (Diretórios)
 
-Para manter o projeto organizado, profissional e fácil de dar manutenção, dividimos a lista de sites em arquivos individuais:
+Para manter o projeto profissional e de fácil escala, organizamos o repositório seguindo o mapa de pastas abaixo:
 
-- `sites/` - Diretório contendo as configurações de cada site individualmente e metadados globais.
-  - `metadata.json` - Guarda a versão global (`version`).
-  - `{id}.json` - Arquivo de configuração de cada site (ex: `animexhd.json`, `rededecanais.json`).
-- `scripts/` - Scripts auxiliares de compilação.
-  - `build.js` - Script Node.js que valida, ordena de forma estável (por categoria e ID) e compila todos os arquivos de sites individuais em um único `sites.json` unificado na raiz do repositório.
-- `sites.json` - O arquivo compilado gerado automaticamente pelo script. **(Não edite este arquivo diretamente)**
-- `blocklist.json` - Lista de bloqueio de anúncios, popups e rastreadores.
-- `config.json` - Configurações gerais do app.
-- `messages.json` - Sistema de mensagens e avisos dinâmicos.
-- `protect.json` - Recursos de proteção de interface e segurança do app.
-- `webview-rules.json` - Regras de execução e segurança da WebView.
+```text
+ANTFLIX/
+├── sites/                  # Configurações de origem (Sempre modifique aqui!)
+│   ├── metadata.json       # Metadados globais (versão do banco de dados de sites)
+│   ├── animes/             # Sites focados em animes
+│   │   ├── animexhd.json
+│   │   ├── meusanimes.json
+│   │   └── ...
+│   ├── filmes/             # Sites focados em filmes e séries
+│   │   ├── rededecanais.json
+│   │   ├── megafilmeseserieshd.json
+│   │   └── ...
+│   ├── tv/                 # Sites/canais de transmissão de TV (ex: Pluto TV)
+│   │   └── ...
+│   └── adultos/            # Sites de conteúdo adulto
+│       └── ...
+├── scripts/                # Scripts utilitários de desenvolvimento
+│   └── build.js            # Script que compila as pastas no arquivo unificado
+├── package.json            # Definição do projeto e scripts de compilação
+├── sites.json              # Arquivo FINAL unificado gerado automaticamente (NÃO EDITAR)
+├── blocklist.json          # Regras e domínios de bloqueio de anúncios
+├── config.json             # Configurações gerais da aplicação
+├── messages.json           # Avisos globais em tempo real
+├── protect.json            # Configurações de segurança da interface
+└── webview-rules.json      # Políticas e permissões da WebView
+```
+
+---
+
+## ⚙️ Explicação da Refatoração
+
+Anteriormente, todos os sites eram listados diretamente dentro de um único e gigante arquivo `sites.json`. Com o crescimento do ANTFLIX, essa abordagem trazia diversos problemas:
+1. **Dificuldade de Manutenção:** Arquivos gigantescos facilitam erros de sintaxe (como uma vírgula perdida) que quebravam todo o aplicativo.
+2. **Conflitos de Git (Merge Conflicts):** Se dois desenvolvedores adicionassem ou atualizassem sites diferentes ao mesmo tempo, gerava conflitos difíceis de resolver.
+3. **Escalabilidade:** Ficava difícil gerenciar categorias separadas visualmente e manter um controle limpo de versões.
+
+### O que mudou?
+- **Divisão por Pastas:** Agora, cada site é um arquivo JSON independente (`{id}.json`) dentro de sua categoria correspondente (`animes`, `filmes`, `tv`, `adultos`).
+- **Rastreabilidade Dinâmica (`source`):** Durante o processo de build, o compilador automaticamente injeta a propriedade `"source"` em cada site no arquivo compilado, apontando exatamente para o arquivo correspondente na pasta (por exemplo: `"source": "sites/animes/animexhd.json"`). Dessa forma, qualquer pessoa ou sistema consumindo o `sites.json` sabe exatamente onde está o arquivo fonte original para fazer edições.
+- **Automatização Inteligente:** Criamos um compilador em `scripts/build.js` que junta tudo perfeitamente. Ele valida se as propriedades obrigatórias existem, ordena de forma estável (primeiro por categoria de exibição, depois por ID em ordem alfabética) e escreve tudo atualizando dinamicamente a data de modificação (`updated`) e a versão global definida em `sites/metadata.json`.
 
 ---
 
 ## 🛠️ Como Contribuir ou Adicionar Novos Sites
 
-Siga os passos abaixo para adicionar ou atualizar sites de forma profissional:
+Siga os passos abaixo para adicionar ou atualizar sites:
 
 ### 1. Criar ou editar o arquivo do site
-Crie um arquivo JSON dentro da pasta `sites/` com o nome do ID do site. Por exemplo, `sites/meusite.json`.
+Crie ou edite um arquivo JSON dentro da pasta correta de categoria (`sites/animes/`, `sites/filmes/`, `sites/tv/` ou `sites/adultos/`).
 
 O arquivo deve seguir a estrutura padrão de exemplo:
 ```json
@@ -84,15 +113,8 @@ Se desejar subir a versão global do registro de sites, edite o arquivo `sites/m
 ```
 
 ### 3. Compilar a lista final (`sites.json`)
-Sempre que fizer alterações nos arquivos individuais da pasta `sites/`, você deve compilar o arquivo unificado `sites.json` rodando o seguinte comando no terminal:
+Sempre que fizer alterações nos arquivos individuais das pastas, compile o arquivo final `sites.json` rodando:
 
 ```bash
-# Instalar dependências (caso existam futuramente) e rodar o build
 npm run build
 ```
-
-O script de compilação irá:
-1. Validar se os campos obrigatórios estão presentes em cada arquivo de site.
-2. Ordenar os sites de forma estável por categoria e ordem alfabética de ID.
-3. Atualizar a propriedade `updated` com a data atual (ano-mês-dia).
-4. Gerar o arquivo final `sites.json` de forma limpa e otimizada.
