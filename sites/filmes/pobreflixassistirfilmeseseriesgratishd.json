@@ -1,0 +1,42 @@
+{
+  "id": "pobreflixassistirfilmeseseriesgratishd",
+  "name": "Pobreflix - Assistir Filmes e Series Grátis HD",
+  "url": "https://assistirseriesetv.com/",
+  "logo": "https://assistirseriesetv.com/wp-content/uploads/2023/02/facebook.png",
+  "enabled": true,
+  "category": "Filmes",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": false,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": true,
+    "type": "warning",
+    "title": "Aviso",
+    "message": "Este site pode exibir anúncios próprios.",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
