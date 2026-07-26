@@ -1,0 +1,42 @@
+{
+  "id": "superflixassistirfilmeseseriesonlinegratisemhd",
+  "name": "Superflix - Assistir Filmes e Séries Online Grátis em HD",
+  "url": "https://superflixbr.com/",
+  "logo": "https://image.tmdb.org/t/p/w1280/8kJrpxyQAs0PHmuC53TLNK51ogP.jpg",
+  "enabled": true,
+  "category": "filmes",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": true,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": true,
+    "type": "warning",
+    "title": "Aviso",
+    "message": "Este site pode exibir anúncios próprios.",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
