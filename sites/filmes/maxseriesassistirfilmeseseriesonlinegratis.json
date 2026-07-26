@@ -1,0 +1,42 @@
+{
+  "id": "maxseriesassistirfilmeseseriesonlinegratis",
+  "name": "Max Series - Assistir Filmes e Series Online Gratis",
+  "url": "https://www.maxseries.casa/",
+  "logo": "https://www.maxseries.casa/wp-content/uploads/2025/09/max-logo.png",
+  "enabled": true,
+  "category": "Filmes",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": true,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": true,
+    "type": "warning",
+    "title": "Aviso",
+    "message": "Este site pode exibir anúncios próprios.",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
