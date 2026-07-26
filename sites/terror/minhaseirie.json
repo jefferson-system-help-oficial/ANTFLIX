@@ -1,0 +1,42 @@
+{
+  "id": "minhaseirie",
+  "name": "MINHA SERIE",
+  "url": "https://www.minhaserie.net/",
+  "logo": "",
+  "enabled": true,
+  "category": "Terror",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": false,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": true,
+    "type": "warning",
+    "title": "Aviso",
+    "message": "Este site pode exibir anúncios próprios. Alguns anúncios fazem parte do funcionamento do site e não podem ser removidos pelo ANTFLIX.",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
