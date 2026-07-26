@@ -1,0 +1,42 @@
+{
+  "id": "mangasbrasukas",
+  "name": "Mangas Brasukas",
+  "url": "https://mangasbrasuka.com.br/",
+  "logo": "https://mangasbrasuka.com.br/favicon.ico",
+  "enabled": true,
+  "category": "Mangas",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": false,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": true,
+    "type": "warning",
+    "title": "Aviso",
+    "message": "Este site precisa recarrega um anúncio antes de ler seu mangá ",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
