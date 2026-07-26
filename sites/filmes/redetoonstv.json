@@ -7,11 +7,11 @@
   "category": "Filmes",
   "status": {
     "online": true,
-    "maintenance": false
+    "maintenance": true
   },
   "info": {
     "language": "pt-BR",
-    "ads": true,
+    "ads": false,
     "loginRequired": false,
     "vpnRequired": false,
     "quality": [
