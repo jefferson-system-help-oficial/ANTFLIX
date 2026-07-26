@@ -3,10 +3,10 @@
   "name": "REDETOONS TV",
   "url": "https://redetoonstv.cards/",
   "logo": "https://redetoonstv.cards/pwa-192x192.png",
-  "enabled": true,
+  "enabled": false,
   "category": "Filmes",
   "status": {
-    "online": true,
+    "online": false,
     "maintenance": true
   },
   "info": {
