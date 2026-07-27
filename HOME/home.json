@@ -1,1 +1,34 @@
-Folder placeholder
+{
+  "version": 1,
+
+  "sections": [
+    {
+      "type": "carousel",
+      "title": "🔥 Top 10 Filmes",
+      "search": [
+        "Avatar",
+        "John Wick 4",
+        "Oppenheimer",
+        "Deadpool & Wolverine",
+        "Duna Parte 2",
+        "Minecraft",
+        "Interestelar",
+        "Matrix",
+        "Vingadores Ultimato",
+        "Gladiador"
+      ]
+    },
+
+    {
+      "type": "carousel",
+      "title": "🍿 Séries em Alta",
+      "search": [
+        "The Last of Us",
+        "Stranger Things",
+        "The Boys",
+        "Round 6",
+        "The Walking Dead"
+      ]
+    }
+  ]
+}
