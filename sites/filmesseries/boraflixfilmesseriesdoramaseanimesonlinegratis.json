@@ -1,10 +1,10 @@
 {
   "id": "boraflixfilmesseriesdoramaseanimesonlinegratis",
-  "name": "Bora+Flix+Filmes,+Séries,+Doramas+e+animes+Online+Grátis",
+  "name": "Boraflix",
   "url": "https://www.boraflix.fit/",
   "logo": "",
   "enabled": true,
-  "category": "filmesseries",
+  "category": "filmes",
   "status": {
     "online": true,
     "maintenance": false
