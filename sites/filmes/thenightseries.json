@@ -1,0 +1,42 @@
+{
+  "id": "thenightseries",
+  "name": "The Night Séries",
+  "url": "https://thenightseriesbr.com/",
+  "logo": "",
+  "enabled": true,
+  "category": "filmes",
+  "status": {
+    "online": true,
+    "maintenance": false
+  },
+  "info": {
+    "language": "pt-BR",
+    "ads": true,
+    "loginRequired": false,
+    "vpnRequired": false,
+    "quality": [
+      "HD",
+      "FULL HD"
+    ]
+  },
+  "notice": {
+    "enabled": false,
+    "type": "warning",
+    "title": "Aviso",
+    "message": "",
+    "priority": "normal",
+    "showOnce": false
+  },
+  "compatibility": {
+    "adBlock": "partial",
+    "popupBlock": true,
+    "cast": true,
+    "pictureInPicture": true,
+    "download": false
+  },
+  "settings": {
+    "javascript": true,
+    "cookies": true,
+    "fullscreen": true
+  }
+}
