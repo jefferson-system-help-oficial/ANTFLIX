@@ -1,1 +1,30 @@
+{
+  "version": 1,
 
+  "title": "Catálogo Rápido",
+
+  "items": [
+
+    {
+      "id": "filmes",
+      "title": "Filmes e Séries",
+      "icon": "movie",
+      "url": "https://site1.com"
+    },
+
+    {
+      "id": "doramas",
+      "title": "Doramas",
+      "icon": "tv",
+      "url": "https://site2.com"
+    },
+
+    {
+      "id": "animes",
+      "title": "Animes",
+      "icon": "animation",
+      "url": "https://site3.com"
+    }
+
+  ]
+}
