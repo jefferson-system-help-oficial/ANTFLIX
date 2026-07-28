@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "sections": [
     {
       "type": "carousel",
@@ -19,6 +19,15 @@
         "The Boys",
         "Round 6",
         "The Walking Dead"
+      ]
+    },
+    {
+      "type": "carousel",
+      "title": "🔥 Top 3 Animes",
+      "search": [
+        "Solo Leveling",
+        "Demon Slayer",
+        "Jujutsu Kaisen"
       ]
     }
   ]
