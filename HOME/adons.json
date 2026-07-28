@@ -1,30 +1,24 @@
 {
   "version": 1,
-
   "title": "Catálogo Rápido",
-
   "items": [
-
     {
       "id": "filmes",
       "title": "Filmes e Séries",
       "icon": "movie",
-      "url": "https://redecanaishd.surf/"
+      "url": "https:\/\/redecanaishd.surf\/"
     },
-
     {
       "id": "dramascurtos",
       "title": "Dramas Curtos",
       "icon": "tv",
-      "url": "https://www.flextv.cc/pt"
+      "url": "https:\/\/www.flextv.cc\/pt"
     },
-
     {
       "id": "animes",
       "title": "Animes",
       "icon": "animation",
-      "url": "https://animesonlinecc.to/genero/dublado/"
+      "url": "https:\/\/animesonlinecc.to\/genero\/dublado\/"
     }
-
   ]
 }
