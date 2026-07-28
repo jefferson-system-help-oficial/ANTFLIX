@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "id": 1000,
+    "action": "message",
+    "version": "2.0.0",
+    "revision": 1,
+    "enabled": true,
+    "params": {
+      "title": "Aviso do Sistema",
+      "message": "ESTAMOS DE VOLTA ",
+      "showOnce": true
+    }
+  }
+]
