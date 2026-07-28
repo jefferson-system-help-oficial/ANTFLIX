@@ -1,6 +1,5 @@
 {
   "version": 2,
-
   "sections": [
     {
       "type": "carousel",
@@ -8,10 +7,9 @@
       "search": [
         "Avatar",
         "John Wick 4",
-        "Oppenheimer",
+        "Oppenheimer"
       ]
     },
-
     {
       "type": "carousel",
       "title": "🍿 Séries em Alta",
