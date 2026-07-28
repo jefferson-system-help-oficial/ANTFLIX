@@ -1,9 +1,9 @@
 {
-  "version": 3,
+  "version": 4,
   "sections": [
     {
       "type": "carousel",
-      "title": "🔥 Top 3 Filmes",
+      "title": "🔥 Top  Filmes",
       "search": [
         "John Wick 4",
         "Oppenheimer"
