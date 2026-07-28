@@ -10,16 +10,5 @@
       "message": "BEM VINDOS",
       "showOnce": true
     }
-  },
-  {
-    "id": 1300,
-    "action": "maintenance",
-    "version": "2.0.0",
-    "revision": 1,
-    "enabled": true,
-    "params": {
-      "reason": "Atualização programada do banco de dados ANTFLIX.",
-      "estimated_minutes": 30
-    }
   }
 ]
