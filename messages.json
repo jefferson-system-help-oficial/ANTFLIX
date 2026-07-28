@@ -1,13 +1,1 @@
-[
-  {
-    "id": 1101,
-    "action": "server_warning",
-    "version": "2.0.0",
-    "revision": 2,
-    "enabled": false,
-    "params": {
-      "title": "Instabilidade em Servidores",
-      "message": "Nossa equipe está otimizando as rotas de transmissão."
-    }
-  }
-]
+[]
