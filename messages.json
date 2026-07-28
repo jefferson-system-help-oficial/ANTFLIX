@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": 1300,
+    "action": "maintenance",
+    "version": "2.0.0",
+    "revision": 1,
+    "enabled": true,
+    "params": {
+      "notice": "Estamos realizando melhorias na infraestrutura do ANTFLIX.",
+      "estimatedTime": "30 minutos",
+      "allowPlayback": false,
+      "message": "estamos sobre manutenção "
+    }
+  }
+]
