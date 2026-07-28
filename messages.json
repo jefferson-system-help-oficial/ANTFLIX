@@ -1,17 +1,5 @@
 [
   {
-    "id": 1300,
-    "action": "maintenance",
-    "version": "2.0.0",
-    "revision": 4,
-    "enabled": false,
-    "params": {
-      "notice": "Estamos realizando melhorias na infraestrutura do ANTFLIX.",
-      "estimatedTime": "30 minutos",
-      "allowPlayback": false
-    }
-  },
-  {
     "id": 1000,
     "action": "message",
     "version": "2.0.0",
