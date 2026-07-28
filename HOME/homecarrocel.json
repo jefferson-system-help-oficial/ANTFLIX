@@ -1,21 +1,14 @@
 {
-  "version": 1,
+  "version": 2,
 
   "sections": [
     {
       "type": "carousel",
-      "title": "🔥 Top 10 Filmes",
+      "title": "🔥 Top 3 Filmes",
       "search": [
         "Avatar",
         "John Wick 4",
         "Oppenheimer",
-        "Deadpool & Wolverine",
-        "Duna Parte 2",
-        "Minecraft",
-        "Interestelar",
-        "Matrix",
-        "Vingadores Ultimato",
-        "Gladiador"
       ]
     },
 
