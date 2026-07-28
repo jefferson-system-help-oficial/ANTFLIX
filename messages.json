@@ -3,8 +3,8 @@
     "id": 1000,
     "action": "message",
     "version": "2.0.0",
-    "revision": 1,
-    "enabled": true,
+    "revision": 2,
+    "enabled": false,
     "params": {
       "title": "Aviso do Sistema",
       "message": "Adicionados novos episódios em Full HD na categoria de Animes!",
