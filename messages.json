@@ -1,58 +1,14 @@
-{
-  "version": "1.0.0",
-  "revision": 1,
-  "updated": "2026-07-26T00:30:00Z",
-
-  "notifications": [
-    {
-      "id": 1003,
-      "action": "show_message",
-      "version": "1.0.0",
-      "revision": 1,
-
-      "title": "⚠️ Beta - Novos Servidores",
-      "message": "Estamos em fase beta com novos servidores sendo adicionados. O serviço pode apresentar instabilidade momentânea enquanto otimizamos a infraestrutura. Obrigado pela paciência!",
-
-      "type": "warning",
-      "priority": "high",
-
-      "showOnce": false,
-      "dismissible": true,
-      "enabled": true
-    },
-
-    {
-      "id": 1004,
-      "action": "show_message",
-      "version": "1.0.0",
-      "revision": 1,
-
-      "title": "💙 Obrigado por usar o ANTFLIX",
-      "message": "Agradecemos por fazer parte da fase beta do ANTFLIX. Seu feedback é muito importante para melhorar o aplicativo. Caso encontre algum problema, envie um relatório para que possamos corrigir o mais rápido possível.",
-
-      "type": "info",
-      "priority": "medium",
-
-      "showOnce": true,
-      "dismissible": true,
-      "enabled": true
-    },
-
-    {
-      "id": 1005,
-      "action": "show_message",
-      "version": "1.0.0",
-      "revision": 1,
-
-      "title": "🚀 Novidades em breve",
-      "message": "Estamos trabalhando em novos recursos, melhorias de desempenho e novos provedores de conteúdo. Fique atento às próximas atualizações!",
-
-      "type": "success",
-      "priority": "low",
-
-      "showOnce": true,
-      "dismissible": true,
-      "enabled": true
+[
+  {
+    "id": 1000,
+    "action": "message",
+    "version": "2.0.0",
+    "revision": 1,
+    "enabled": true,
+    "params": {
+      "title": "Aviso do Sistema",
+      "message": "Adicionados novos episódios em Full HD na categoria de Animes!",
+      "showOnce": true
     }
-  ]
-}
+  }
+]
