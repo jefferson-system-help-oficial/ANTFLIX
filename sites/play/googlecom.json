@@ -1,7 +1,7 @@
 {
   "id": "googlecom",
   "name": "Google com",
-  "url": "www.google.com",
+  "url": "https://www.google.com",
   "logo": "",
   "enabled": true,
   "category": "play",
