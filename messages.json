@@ -1,2 +1,16 @@
 [
+  {
+    "id": 1000,
+    "action": "message",
+    "version": "2.0.0",
+    "revision": 1,
+    "enabled": true,
+    "params": {
+      "title": "Aviso Importante ANTFLIX",
+      "message": "Confira os lançamentos adicionados ao catálogo esta semana!",
+      "buttonText": "Entendido",
+      "showOnce": true,
+      "url": "https:\/\/antflix.app\/download"
+    }
+  }
 ]
