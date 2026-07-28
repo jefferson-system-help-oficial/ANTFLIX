@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": 1101,
+    "action": "server_warning",
+    "version": "2.0.0",
+    "revision": 1,
+    "enabled": true,
+    "params": {
+      "title": "Aviso de Estabilidade",
+      "message": "Estamos realizando otimizações nos servidores de streaming."
+    }
+  }
+]
