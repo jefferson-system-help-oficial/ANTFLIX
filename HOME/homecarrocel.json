@@ -1,241 +1,241 @@
 {
-  "version": 6,
-  "updated": "2026-07-28",
+  "version": 7,
+  "updated": "2026-07-29",
   "sections": [
     {
-      "id": "top_movies",
+      "id": "top_movies_new",
       "type": "carousel",
-      "title": "🎬 Filmes em Destaque",
+      "title": "🎬 Mais Filmes",
       "category": "movie",
       "enabled": true,
       "items": [
         {
-          "id": "movie_001",
-          "title": "John Wick 4",
-          "search": "John Wick 4",
+          "id": "movie_101",
+          "title": "Alien: Romulus",
+          "search": "Alien Romulus",
           "priority": 1,
-          "tags": ["ação", "filme"]
+          "tags": ["terror", "ficção"]
         },
         {
-          "id": "movie_002",
-          "title": "Oppenheimer",
-          "search": "Oppenheimer",
+          "id": "movie_102",
+          "title": "Furiosa: Uma Saga Mad Max",
+          "search": "Furiosa A Mad Max Saga",
           "priority": 2,
-          "tags": ["drama", "histórico"]
+          "tags": ["ação", "aventura"]
         },
         {
-          "id": "movie_003",
-          "title": "Avatar: O Caminho da Água",
-          "search": "Avatar The Way of Water",
+          "id": "movie_103",
+          "title": "Nosferatu",
+          "search": "Nosferatu 2024",
           "priority": 3,
-          "tags": ["ficção", "aventura"]
+          "tags": ["terror"]
         },
         {
-          "id": "movie_004",
-          "title": "Duna: Parte Dois",
-          "search": "Dune Part Two",
+          "id": "movie_104",
+          "title": "Mickey 17",
+          "search": "Mickey 17",
           "priority": 4,
-          "tags": ["ficção", "épico"]
+          "tags": ["ficção"]
         },
         {
-          "id": "movie_005",
-          "title": "Missão: Impossível Acerto Final",
-          "search": "Mission Impossible",
+          "id": "movie_105",
+          "title": "The Creator",
+          "search": "The Creator",
           "priority": 5,
+          "tags": ["ficção", "ação"]
+        },
+        {
+          "id": "movie_106",
+          "title": "Godzilla Minus One",
+          "search": "Godzilla Minus One",
+          "priority": 6,
+          "tags": ["ação", "kaiju"]
+        },
+        {
+          "id": "movie_107",
+          "title": "The Beekeeper",
+          "search": "The Beekeeper",
+          "priority": 7,
           "tags": ["ação"]
         },
         {
-          "id": "movie_006",
-          "title": "Deadpool & Wolverine",
-          "search": "Deadpool Wolverine",
-          "priority": 6,
-          "tags": ["ação", "comédia"]
-        },
-        {
-          "id": "movie_007",
-          "title": "Gladiador II",
-          "search": "Gladiator II",
-          "priority": 7,
-          "tags": ["épico"]
-        },
-        {
-          "id": "movie_008",
-          "title": "Minecraft",
-          "search": "Minecraft Movie",
+          "id": "movie_108",
+          "title": "Kung Fu Panda 4",
+          "search": "Kung Fu Panda 4",
           "priority": 8,
-          "tags": ["aventura"]
-        },
-        {
-          "id": "movie_009",
-          "title": "Sonic 3",
-          "search": "Sonic the Hedgehog 3",
-          "priority": 9,
-          "tags": ["família"]
-        },
-        {
-          "id": "movie_010",
-          "title": "Moana 2",
-          "search": "Moana 2",
-          "priority": 10,
           "tags": ["animação"]
+        },
+        {
+          "id": "movie_109",
+          "title": "Transformers: O Despertar das Feras",
+          "search": "Transformers Rise of the Beasts",
+          "priority": 9,
+          "tags": ["ação", "ficção"]
+        },
+        {
+          "id": "movie_110",
+          "title": "A Substância",
+          "search": "The Substance",
+          "priority": 10,
+          "tags": ["terror", "suspense"]
         }
       ]
     },
     {
-      "id": "trending_series",
+      "id": "trending_series_new",
       "type": "carousel",
-      "title": "📺 Séries Populares",
+      "title": "📺 Mais Séries",
       "category": "series",
       "enabled": true,
       "items": [
         {
-          "id": "serie_001",
-          "title": "The Last of Us",
-          "search": "The Last of Us",
+          "id": "serie_101",
+          "title": "Severance",
+          "search": "Severance",
           "priority": 1,
-          "tags": ["drama"]
-        },
-        {
-          "id": "serie_002",
-          "title": "Stranger Things",
-          "search": "Stranger Things",
-          "priority": 2,
           "tags": ["ficção"]
         },
         {
-          "id": "serie_003",
-          "title": "The Boys",
-          "search": "The Boys",
+          "id": "serie_102",
+          "title": "Fallout",
+          "search": "Fallout",
+          "priority": 2,
+          "tags": ["aventura"]
+        },
+        {
+          "id": "serie_103",
+          "title": "From",
+          "search": "From",
           "priority": 3,
-          "tags": ["ação"]
-        },
-        {
-          "id": "serie_004",
-          "title": "Round 6",
-          "search": "Round 6",
-          "priority": 4,
-          "tags": ["suspense"]
-        },
-        {
-          "id": "serie_005",
-          "title": "The Walking Dead",
-          "search": "The Walking Dead",
-          "priority": 5,
           "tags": ["terror"]
         },
         {
-          "id": "serie_006",
-          "title": "Loki",
-          "search": "Loki",
+          "id": "serie_104",
+          "title": "Silo",
+          "search": "Silo",
+          "priority": 4,
+          "tags": ["ficção"]
+        },
+        {
+          "id": "serie_105",
+          "title": "Reacher",
+          "search": "Reacher",
+          "priority": 5,
+          "tags": ["ação"]
+        },
+        {
+          "id": "serie_106",
+          "title": "The Penguin",
+          "search": "The Penguin",
           "priority": 6,
-          "tags": ["marvel"]
-        },
-        {
-          "id": "serie_007",
-          "title": "House of the Dragon",
-          "search": "House of the Dragon",
-          "priority": 7,
-          "tags": ["fantasia"]
-        },
-        {
-          "id": "serie_008",
-          "title": "Peaky Blinders",
-          "search": "Peaky Blinders",
-          "priority": 8,
           "tags": ["crime"]
         },
         {
-          "id": "serie_009",
-          "title": "Dark",
-          "search": "Dark",
-          "priority": 9,
-          "tags": ["mistério"]
+          "id": "serie_107",
+          "title": "Shōgun",
+          "search": "Shogun",
+          "priority": 7,
+          "tags": ["histórico"]
         },
         {
-          "id": "serie_010",
-          "title": "Breaking Bad",
-          "search": "Breaking Bad",
+          "id": "serie_108",
+          "title": "Arcane",
+          "search": "Arcane",
+          "priority": 8,
+          "tags": ["animação"]
+        },
+        {
+          "id": "serie_109",
+          "title": "Tulsa King",
+          "search": "Tulsa King",
+          "priority": 9,
+          "tags": ["crime"]
+        },
+        {
+          "id": "serie_110",
+          "title": "The Bear",
+          "search": "The Bear",
           "priority": 10,
           "tags": ["drama"]
         }
       ]
     },
     {
-      "id": "top_animes",
+      "id": "top_animes_new",
       "type": "carousel",
-      "title": "🔥 Animes em Alta",
+      "title": "🔥 Mais Animes",
       "category": "anime",
       "enabled": true,
       "items": [
         {
-          "id": "anime_001",
-          "title": "Solo Leveling",
-          "search": "Solo Leveling",
+          "id": "anime_101",
+          "title": "Kaiju No. 8",
+          "search": "Kaiju No. 8",
           "priority": 1,
           "tags": ["ação"]
         },
         {
-          "id": "anime_002",
-          "title": "Demon Slayer",
-          "search": "Demon Slayer",
+          "id": "anime_102",
+          "title": "Dan Da Dan",
+          "search": "Dandadan",
           "priority": 2,
-          "tags": ["aventura"]
-        },
-        {
-          "id": "anime_003",
-          "title": "Jujutsu Kaisen",
-          "search": "Jujutsu Kaisen",
-          "priority": 3,
           "tags": ["sobrenatural"]
         },
         {
-          "id": "anime_004",
-          "title": "One Piece",
-          "search": "One Piece",
-          "priority": 4,
-          "tags": ["piratas"]
-        },
-        {
-          "id": "anime_005",
-          "title": "Naruto Shippuden",
-          "search": "Naruto Shippuden",
-          "priority": 5,
-          "tags": ["ninja"]
-        },
-        {
-          "id": "anime_006",
-          "title": "Attack on Titan",
-          "search": "Attack on Titan",
-          "priority": 6,
+          "id": "anime_103",
+          "title": "Wind Breaker",
+          "search": "Wind Breaker",
+          "priority": 3,
           "tags": ["ação"]
         },
         {
-          "id": "anime_007",
-          "title": "Chainsaw Man",
-          "search": "Chainsaw Man",
-          "priority": 7,
-          "tags": ["terror"]
-        },
-        {
-          "id": "anime_008",
-          "title": "Spy x Family",
-          "search": "Spy x Family",
-          "priority": 8,
+          "id": "anime_104",
+          "title": "Mashle",
+          "search": "Mashle Magic and Muscles",
+          "priority": 4,
           "tags": ["comédia"]
         },
         {
-          "id": "anime_009",
-          "title": "Blue Lock",
-          "search": "Blue Lock",
-          "priority": 9,
-          "tags": ["esporte"]
+          "id": "anime_105",
+          "title": "Hell's Paradise",
+          "search": "Hell's Paradise",
+          "priority": 5,
+          "tags": ["aventura"]
         },
         {
-          "id": "anime_010",
-          "title": "Frieren",
-          "search": "Frieren",
-          "priority": 10,
+          "id": "anime_106",
+          "title": "The Apothecary Diaries",
+          "search": "The Apothecary Diaries",
+          "priority": 6,
+          "tags": ["mistério"]
+        },
+        {
+          "id": "anime_107",
+          "title": "Dr. Stone",
+          "search": "Dr Stone",
+          "priority": 7,
+          "tags": ["aventura"]
+        },
+        {
+          "id": "anime_108",
+          "title": "Overlord",
+          "search": "Overlord",
+          "priority": 8,
           "tags": ["fantasia"]
+        },
+        {
+          "id": "anime_109",
+          "title": "Re:Zero",
+          "search": "Re Zero",
+          "priority": 9,
+          "tags": ["isekai"]
+        },
+        {
+          "id": "anime_110",
+          "title": "That Time I Got Reincarnated as a Slime",
+          "search": "Tensei Shitara Slime Datta Ken",
+          "priority": 10,
+          "tags": ["isekai", "fantasia"]
         }
       ]
     }
