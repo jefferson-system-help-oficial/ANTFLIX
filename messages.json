@@ -1,3 +1,14 @@
 [
-
+  {
+    "id": 1000,
+    "action": "message",
+    "version": "2.0.0",
+    "revision": 1,
+    "enabled": true,
+    "params": {
+      "title": "Aviso do Sistema",
+      "message": "🎬🍿 Bem-vindo ao ANTFLIX! 🚀\n\nOlá! Seja muito bem-vindo(a)! 👋\n\nPrepare a pipoca 🍿, relaxe 😎 e aproveite uma experiência feita para quem ama filmes, séries e animes em um só lugar! 🎥📺🎌\n\n✨ No ANTFLIX você encontra:\n\n- 🎞️ Filmes de diversos gêneros.\n- 📺 Séries para maratonar.\n- 🎌 Animes e conteúdos incríveis.\n- ⚡ Reprodução rápida e intuitiva.\n- 🔍 Busca inteligente para encontrar seu conteúdo favorito.\n- ❤️ Interface moderna, leve e fácil de usar.\n\n💡 Dica: Mantenha o aplicativo sempre atualizado para receber novos recursos, melhorias e correções automaticamente.\n\n🚀 Nossa missão é oferecer a melhor experiência de entretenimento possível.\n\n💙 Obrigado por escolher o ANTFLIX!\n\n🍿 Aperte o play e divirta-se! 🎬✨",
+      "showOnce": true
+    }
+  }
 ]
