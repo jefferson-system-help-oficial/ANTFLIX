@@ -1,11 +1,11 @@
 {
-  "version": 5,
+  "version": 6,
   "updated": "2026-07-28",
   "sections": [
     {
       "id": "top_movies",
       "type": "carousel",
-      "title": "🔥 Top Filmes",
+      "title": "🎬 Filmes em Destaque",
       "category": "movie",
       "enabled": true,
       "items": [
@@ -14,27 +14,77 @@
           "title": "John Wick 4",
           "search": "John Wick 4",
           "priority": 1,
-          "tags": [
-            "ação",
-            "filme"
-          ]
+          "tags": ["ação", "filme"]
         },
         {
           "id": "movie_002",
           "title": "Oppenheimer",
           "search": "Oppenheimer",
           "priority": 2,
-          "tags": [
-            "drama",
-            "histórico"
-          ]
+          "tags": ["drama", "histórico"]
+        },
+        {
+          "id": "movie_003",
+          "title": "Avatar: O Caminho da Água",
+          "search": "Avatar The Way of Water",
+          "priority": 3,
+          "tags": ["ficção", "aventura"]
+        },
+        {
+          "id": "movie_004",
+          "title": "Duna: Parte Dois",
+          "search": "Dune Part Two",
+          "priority": 4,
+          "tags": ["ficção", "épico"]
+        },
+        {
+          "id": "movie_005",
+          "title": "Missão: Impossível Acerto Final",
+          "search": "Mission Impossible",
+          "priority": 5,
+          "tags": ["ação"]
+        },
+        {
+          "id": "movie_006",
+          "title": "Deadpool & Wolverine",
+          "search": "Deadpool Wolverine",
+          "priority": 6,
+          "tags": ["ação", "comédia"]
+        },
+        {
+          "id": "movie_007",
+          "title": "Gladiador II",
+          "search": "Gladiator II",
+          "priority": 7,
+          "tags": ["épico"]
+        },
+        {
+          "id": "movie_008",
+          "title": "Minecraft",
+          "search": "Minecraft Movie",
+          "priority": 8,
+          "tags": ["aventura"]
+        },
+        {
+          "id": "movie_009",
+          "title": "Sonic 3",
+          "search": "Sonic the Hedgehog 3",
+          "priority": 9,
+          "tags": ["família"]
+        },
+        {
+          "id": "movie_010",
+          "title": "Moana 2",
+          "search": "Moana 2",
+          "priority": 10,
+          "tags": ["animação"]
         }
       ]
     },
     {
       "id": "trending_series",
       "type": "carousel",
-      "title": "🍿 Séries em Alta",
+      "title": "📺 Séries Populares",
       "category": "series",
       "enabled": true,
       "items": [
@@ -43,56 +93,77 @@
           "title": "The Last of Us",
           "search": "The Last of Us",
           "priority": 1,
-          "tags": [
-            "ação",
-            "drama"
-          ]
+          "tags": ["drama"]
         },
         {
           "id": "serie_002",
           "title": "Stranger Things",
           "search": "Stranger Things",
           "priority": 2,
-          "tags": [
-            "ficção",
-            "aventura"
-          ]
+          "tags": ["ficção"]
         },
         {
           "id": "serie_003",
           "title": "The Boys",
           "search": "The Boys",
           "priority": 3,
-          "tags": [
-            "ação",
-            "super-heróis"
-          ]
+          "tags": ["ação"]
         },
         {
           "id": "serie_004",
           "title": "Round 6",
           "search": "Round 6",
           "priority": 4,
-          "tags": [
-            "suspense"
-          ]
+          "tags": ["suspense"]
         },
         {
           "id": "serie_005",
           "title": "The Walking Dead",
           "search": "The Walking Dead",
           "priority": 5,
-          "tags": [
-            "terror",
-            "zumbi"
-          ]
+          "tags": ["terror"]
+        },
+        {
+          "id": "serie_006",
+          "title": "Loki",
+          "search": "Loki",
+          "priority": 6,
+          "tags": ["marvel"]
+        },
+        {
+          "id": "serie_007",
+          "title": "House of the Dragon",
+          "search": "House of the Dragon",
+          "priority": 7,
+          "tags": ["fantasia"]
+        },
+        {
+          "id": "serie_008",
+          "title": "Peaky Blinders",
+          "search": "Peaky Blinders",
+          "priority": 8,
+          "tags": ["crime"]
+        },
+        {
+          "id": "serie_009",
+          "title": "Dark",
+          "search": "Dark",
+          "priority": 9,
+          "tags": ["mistério"]
+        },
+        {
+          "id": "serie_010",
+          "title": "Breaking Bad",
+          "search": "Breaking Bad",
+          "priority": 10,
+          "tags": ["drama"]
         }
       ]
     },
     {
       "id": "top_animes",
       "type": "carousel",
-      "title": "🔥 Top 3 Animes",
+      "title": "🔥 Animes em Alta",
       "category": "anime",
       "enabled": true,
       "items": [
@@ -101,30 +172,70 @@
           "title": "Solo Leveling",
           "search": "Solo Leveling",
           "priority": 1,
-          "tags": [
-            "ação",
-            "fantasia"
-          ]
+          "tags": ["ação"]
         },
         {
           "id": "anime_002",
           "title": "Demon Slayer",
           "search": "Demon Slayer",
           "priority": 2,
-          "tags": [
-            "ação",
-            "aventura"
-          ]
+          "tags": ["aventura"]
         },
         {
           "id": "anime_003",
           "title": "Jujutsu Kaisen",
           "search": "Jujutsu Kaisen",
           "priority": 3,
-          "tags": [
-            "ação",
-            "sobrenatural"
-          ]
+          "tags": ["sobrenatural"]
+        },
+        {
+          "id": "anime_004",
+          "title": "One Piece",
+          "search": "One Piece",
+          "priority": 4,
+          "tags": ["piratas"]
+        },
+        {
+          "id": "anime_005",
+          "title": "Naruto Shippuden",
+          "search": "Naruto Shippuden",
+          "priority": 5,
+          "tags": ["ninja"]
+        },
+        {
+          "id": "anime_006",
+          "title": "Attack on Titan",
+          "search": "Attack on Titan",
+          "priority": 6,
+          "tags": ["ação"]
+        },
+        {
+          "id": "anime_007",
+          "title": "Chainsaw Man",
+          "search": "Chainsaw Man",
+          "priority": 7,
+          "tags": ["terror"]
+        },
+        {
+          "id": "anime_008",
+          "title": "Spy x Family",
+          "search": "Spy x Family",
+          "priority": 8,
+          "tags": ["comédia"]
+        },
+        {
+          "id": "anime_009",
+          "title": "Blue Lock",
+          "search": "Blue Lock",
+          "priority": 9,
+          "tags": ["esporte"]
+        },
+        {
+          "id": "anime_010",
+          "title": "Frieren",
+          "search": "Frieren",
+          "priority": 10,
+          "tags": ["fantasia"]
         }
       ]
     }
