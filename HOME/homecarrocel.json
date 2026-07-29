@@ -1,32 +1,131 @@
 {
-  "version": 4,
+  "version": 5,
+  "updated": "2026-07-28",
   "sections": [
     {
+      "id": "top_movies",
       "type": "carousel",
-      "title": "🔥 Top  Filmes",
-      "search": [
-        "John Wick 4",
-        "Oppenheimer"
+      "title": "🔥 Top Filmes",
+      "category": "movie",
+      "enabled": true,
+      "items": [
+        {
+          "id": "movie_001",
+          "title": "John Wick 4",
+          "search": "John Wick 4",
+          "priority": 1,
+          "tags": [
+            "ação",
+            "filme"
+          ]
+        },
+        {
+          "id": "movie_002",
+          "title": "Oppenheimer",
+          "search": "Oppenheimer",
+          "priority": 2,
+          "tags": [
+            "drama",
+            "histórico"
+          ]
+        }
       ]
     },
     {
+      "id": "trending_series",
       "type": "carousel",
       "title": "🍿 Séries em Alta",
-      "search": [
-        "The Last of Us",
-        "Stranger Things",
-        "The Boys",
-        "Round 6",
-        "The Walking Dead"
+      "category": "series",
+      "enabled": true,
+      "items": [
+        {
+          "id": "serie_001",
+          "title": "The Last of Us",
+          "search": "The Last of Us",
+          "priority": 1,
+          "tags": [
+            "ação",
+            "drama"
+          ]
+        },
+        {
+          "id": "serie_002",
+          "title": "Stranger Things",
+          "search": "Stranger Things",
+          "priority": 2,
+          "tags": [
+            "ficção",
+            "aventura"
+          ]
+        },
+        {
+          "id": "serie_003",
+          "title": "The Boys",
+          "search": "The Boys",
+          "priority": 3,
+          "tags": [
+            "ação",
+            "super-heróis"
+          ]
+        },
+        {
+          "id": "serie_004",
+          "title": "Round 6",
+          "search": "Round 6",
+          "priority": 4,
+          "tags": [
+            "suspense"
+          ]
+        },
+        {
+          "id": "serie_005",
+          "title": "The Walking Dead",
+          "search": "The Walking Dead",
+          "priority": 5,
+          "tags": [
+            "terror",
+            "zumbi"
+          ]
+        }
       ]
     },
     {
+      "id": "top_animes",
       "type": "carousel",
       "title": "🔥 Top 3 Animes",
-      "search": [
-        "Solo Leveling",
-        "Demon Slayer",
-        "Jujutsu Kaisen"
+      "category": "anime",
+      "enabled": true,
+      "items": [
+        {
+          "id": "anime_001",
+          "title": "Solo Leveling",
+          "search": "Solo Leveling",
+          "priority": 1,
+          "tags": [
+            "ação",
+            "fantasia"
+          ]
+        },
+        {
+          "id": "anime_002",
+          "title": "Demon Slayer",
+          "search": "Demon Slayer",
+          "priority": 2,
+          "tags": [
+            "ação",
+            "aventura"
+          ]
+        },
+        {
+          "id": "anime_003",
+          "title": "Jujutsu Kaisen",
+          "search": "Jujutsu Kaisen",
+          "priority": 3,
+          "tags": [
+            "ação",
+            "sobrenatural"
+          ]
+        }
       ]
     }
   ]
