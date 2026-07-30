@@ -1,1 +1,5 @@
-beta
+{
+  "plugin": true,
+  "status": true,
+  "active": true
+}
