@@ -1,0 +1,9 @@
+[
+  {
+    "id": "msg_welcome",
+    "enabled": true,
+    "title": "Bem-vindo ao ANTFLIX",
+    "message": "Aproveite nosso catálogo completo!",
+    "type": "info"
+  }
+]
