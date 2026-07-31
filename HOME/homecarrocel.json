@@ -1,241 +1,241 @@
 {
-  "version": 7,
-  "updated": "2026-07-29",
+  "version": 8,
+  "updated": "2026-07-31",
   "sections": [
     {
-      "id": "top_movies_new",
+      "id": "top_movies_2026",
       "type": "carousel",
-      "title": "🎬 Mais Filmes",
+      "title": "🎬 Top Filmes 2026",
       "category": "movie",
       "enabled": true,
       "items": [
         {
-          "id": "movie_101",
-          "title": "Alien: Romulus",
-          "search": "Alien Romulus",
+          "id": "movie_201",
+          "title": "Project Hail Mary",
+          "search": "Project Hail Mary",
           "priority": 1,
-          "tags": ["terror", "ficção"]
+          "tags": ["ficção", "aventura"]
         },
         {
-          "id": "movie_102",
-          "title": "Furiosa: Uma Saga Mad Max",
-          "search": "Furiosa A Mad Max Saga",
+          "id": "movie_202",
+          "title": "Michael",
+          "search": "Michael 2026",
           "priority": 2,
-          "tags": ["ação", "aventura"]
+          "tags": ["biografia", "drama"]
         },
         {
-          "id": "movie_103",
-          "title": "Nosferatu",
-          "search": "Nosferatu 2024",
+          "id": "movie_203",
+          "title": "Super Mario Galaxy",
+          "search": "Super Mario Galaxy",
           "priority": 3,
-          "tags": ["terror"]
+          "tags": ["animação", "aventura"]
         },
         {
-          "id": "movie_104",
-          "title": "Mickey 17",
-          "search": "Mickey 17",
+          "id": "movie_204",
+          "title": "O Diabo Veste Prada 2",
+          "search": "The Devil Wears Prada 2",
           "priority": 4,
-          "tags": ["ficção"]
+          "tags": ["comédia", "drama"]
         },
         {
-          "id": "movie_105",
-          "title": "The Creator",
-          "search": "The Creator",
+          "id": "movie_205",
+          "title": "Pânico 7",
+          "search": "Scream 7",
           "priority": 5,
-          "tags": ["ficção", "ação"]
-        },
-        {
-          "id": "movie_106",
-          "title": "Godzilla Minus One",
-          "search": "Godzilla Minus One",
-          "priority": 6,
-          "tags": ["ação", "kaiju"]
-        },
-        {
-          "id": "movie_107",
-          "title": "The Beekeeper",
-          "search": "The Beekeeper",
-          "priority": 7,
-          "tags": ["ação"]
-        },
-        {
-          "id": "movie_108",
-          "title": "Kung Fu Panda 4",
-          "search": "Kung Fu Panda 4",
-          "priority": 8,
-          "tags": ["animação"]
-        },
-        {
-          "id": "movie_109",
-          "title": "Transformers: O Despertar das Feras",
-          "search": "Transformers Rise of the Beasts",
-          "priority": 9,
-          "tags": ["ação", "ficção"]
-        },
-        {
-          "id": "movie_110",
-          "title": "A Substância",
-          "search": "The Substance",
-          "priority": 10,
           "tags": ["terror", "suspense"]
-        }
-      ]
-    },
-    {
-      "id": "trending_series_new",
-      "type": "carousel",
-      "title": "📺 Mais Séries",
-      "category": "series",
-      "enabled": true,
-      "items": [
-        {
-          "id": "serie_101",
-          "title": "Severance",
-          "search": "Severance",
-          "priority": 1,
-          "tags": ["ficção"]
         },
         {
-          "id": "serie_102",
-          "title": "Fallout",
-          "search": "Fallout",
-          "priority": 2,
-          "tags": ["aventura"]
-        },
-        {
-          "id": "serie_103",
-          "title": "From",
-          "search": "From",
-          "priority": 3,
-          "tags": ["terror"]
-        },
-        {
-          "id": "serie_104",
-          "title": "Silo",
-          "search": "Silo",
-          "priority": 4,
-          "tags": ["ficção"]
-        },
-        {
-          "id": "serie_105",
-          "title": "Reacher",
-          "search": "Reacher",
-          "priority": 5,
-          "tags": ["ação"]
-        },
-        {
-          "id": "serie_106",
-          "title": "The Penguin",
-          "search": "The Penguin",
+          "id": "movie_206",
+          "title": "Avatar: Fogo e Cinzas",
+          "search": "Avatar Fire and Ash",
           "priority": 6,
-          "tags": ["crime"]
+          "tags": ["ficção", "aventura"]
         },
         {
-          "id": "serie_107",
-          "title": "Shōgun",
-          "search": "Shogun",
+          "id": "movie_207",
+          "title": "Mortal Kombat II",
+          "search": "Mortal Kombat 2",
           "priority": 7,
-          "tags": ["histórico"]
+          "tags": ["ação", "fantasia"]
         },
         {
-          "id": "serie_108",
-          "title": "Arcane",
-          "search": "Arcane",
+          "id": "movie_208",
+          "title": "Hamnet",
+          "search": "Hamnet",
           "priority": 8,
-          "tags": ["animação"]
+          "tags": ["drama", "histórico"]
         },
         {
-          "id": "serie_109",
-          "title": "Tulsa King",
-          "search": "Tulsa King",
+          "id": "movie_209",
+          "title": "O Morro dos Ventos Uivantes",
+          "search": "Wuthering Heights 2026",
           "priority": 9,
-          "tags": ["crime"]
+          "tags": ["drama", "romance"]
         },
         {
-          "id": "serie_110",
-          "title": "The Bear",
-          "search": "The Bear",
+          "id": "movie_210",
+          "title": "Marty Supreme",
+          "search": "Marty Supreme",
           "priority": 10,
           "tags": ["drama"]
         }
       ]
     },
     {
-      "id": "top_animes_new",
+      "id": "top_series_2026",
       "type": "carousel",
-      "title": "🔥 Mais Animes",
+      "title": "📺 Top Séries 2026",
+      "category": "series",
+      "enabled": true,
+      "items": [
+        {
+          "id": "serie_201",
+          "title": "The Last of Us",
+          "search": "The Last of Us Season 3",
+          "priority": 1,
+          "tags": ["drama", "ação"]
+        },
+        {
+          "id": "serie_202",
+          "title": "The Bear",
+          "search": "The Bear Season 5",
+          "priority": 2,
+          "tags": ["drama"]
+        },
+        {
+          "id": "serie_203",
+          "title": "Daredevil: Born Again",
+          "search": "Daredevil Born Again Season 2",
+          "priority": 3,
+          "tags": ["ação", "herói"]
+        },
+        {
+          "id": "serie_204",
+          "title": "Ironheart",
+          "search": "Ironheart",
+          "priority": 4,
+          "tags": ["herói", "ficção"]
+        },
+        {
+          "id": "serie_205",
+          "title": "Aprendendo a Lição",
+          "search": "Study Group",
+          "priority": 5,
+          "tags": ["ação", "drama"]
+        },
+        {
+          "id": "serie_206",
+          "title": "O Amor Pode Ser Traduzido?",
+          "search": "Can This Love Be Translated",
+          "priority": 6,
+          "tags": ["romance"]
+        },
+        {
+          "id": "serie_207",
+          "title": "Cães de Caça",
+          "search": "Bloodhounds Season 2",
+          "priority": 7,
+          "tags": ["ação"]
+        },
+        {
+          "id": "serie_208",
+          "title": "Corta-Fogo",
+          "search": "Trigger",
+          "priority": 8,
+          "tags": ["ação"]
+        },
+        {
+          "id": "serie_209",
+          "title": "A Arte de Sarah",
+          "search": "Sara Woman in the Shadows",
+          "priority": 9,
+          "tags": ["mistério"]
+        },
+        {
+          "id": "serie_210",
+          "title": "Emergência Radioativa",
+          "search": "Emergencia Radioativa",
+          "priority": 10,
+          "tags": ["drama"]
+        }
+      ]
+    },
+    {
+      "id": "top_animes_2026",
+      "type": "carousel",
+      "title": "🔥 Top Animes 2026",
       "category": "anime",
       "enabled": true,
       "items": [
         {
-          "id": "anime_101",
-          "title": "Kaiju No. 8",
-          "search": "Kaiju No. 8",
+          "id": "anime_201",
+          "title": "Solo Leveling",
+          "search": "Solo Leveling Season 2",
           "priority": 1,
-          "tags": ["ação"]
+          "tags": ["ação", "fantasia"]
         },
         {
-          "id": "anime_102",
-          "title": "Dan Da Dan",
-          "search": "Dandadan",
+          "id": "anime_202",
+          "title": "Dandadan",
+          "search": "Dandadan Season 2",
           "priority": 2,
-          "tags": ["sobrenatural"]
+          "tags": ["ação", "sobrenatural"]
         },
         {
-          "id": "anime_103",
-          "title": "Wind Breaker",
-          "search": "Wind Breaker",
+          "id": "anime_203",
+          "title": "Sakamoto Days",
+          "search": "Sakamoto Days",
           "priority": 3,
-          "tags": ["ação"]
+          "tags": ["ação", "comédia"]
         },
         {
-          "id": "anime_104",
-          "title": "Mashle",
-          "search": "Mashle Magic and Muscles",
+          "id": "anime_204",
+          "title": "Kaiju No. 8",
+          "search": "Kaiju No. 8 Season 2",
           "priority": 4,
-          "tags": ["comédia"]
+          "tags": ["ação", "ficção"]
         },
         {
-          "id": "anime_105",
-          "title": "Hell's Paradise",
-          "search": "Hell's Paradise",
-          "priority": 5,
-          "tags": ["aventura"]
-        },
-        {
-          "id": "anime_106",
+          "id": "anime_205",
           "title": "The Apothecary Diaries",
-          "search": "The Apothecary Diaries",
-          "priority": 6,
+          "search": "The Apothecary Diaries Season 2",
+          "priority": 5,
           "tags": ["mistério"]
         },
         {
-          "id": "anime_107",
-          "title": "Dr. Stone",
-          "search": "Dr Stone",
-          "priority": 7,
+          "id": "anime_206",
+          "title": "One Piece",
+          "search": "One Piece Egghead",
+          "priority": 6,
           "tags": ["aventura"]
         },
         {
-          "id": "anime_108",
-          "title": "Overlord",
-          "search": "Overlord",
+          "id": "anime_207",
+          "title": "My Dress-Up Darling",
+          "search": "My Dress-Up Darling Season 2",
+          "priority": 7,
+          "tags": ["romance", "comédia"]
+        },
+        {
+          "id": "anime_208",
+          "title": "Dr. Stone",
+          "search": "Dr Stone Science Future",
           "priority": 8,
+          "tags": ["aventura", "ficção"]
+        },
+        {
+          "id": "anime_209",
+          "title": "Frieren",
+          "search": "Frieren Season 2",
+          "priority": 9,
           "tags": ["fantasia"]
         },
         {
-          "id": "anime_109",
-          "title": "Re:Zero",
-          "search": "Re Zero",
-          "priority": 9,
-          "tags": ["isekai"]
-        },
-        {
-          "id": "anime_110",
-          "title": "That Time I Got Reincarnated as a Slime",
-          "search": "Tensei Shitara Slime Datta Ken",
+          "id": "anime_210",
+          "title": "Spy x Family",
+          "search": "Spy x Family Season 3",
           "priority": 10,
-          "tags": ["isekai", "fantasia"]
+          "tags": ["ação", "comédia"]
         }
       ]
     }
