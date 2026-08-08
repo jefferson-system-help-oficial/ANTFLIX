@@ -1,0 +1,53 @@
+{
+"schemaVersion": 1,
+"id": "org.stremio.animesbr",
+"name": "Animes BR",
+"version": "1.0.0",
+"enabled": true,
+
+"manifestUrl": "https://animes-br-self.vercel.app/manifest.json",
+
+"icon": "https://i.postimg.cc/nz6qK6nd/logo-icone.png",
+
+"addons": true,
+
+"roles": {
+"play": true,
+"catalog": false,
+"metadata": false,
+"subtitle": false
+},
+
+"priority": {
+"play": 100,
+"catalog": 0,
+"metadata": 0,
+"subtitle": 0
+},
+
+"behavior": {
+"playMode": "primary",
+"catalogMode": "disabled",
+"metadataMode": "disabled",
+"subtitleMode": "disabled"
+},
+
+"types": [
+"movie",
+"series",
+"other"
+],
+
+"idPrefixes": [
+"tt",
+"kitsu",
+"tmdb"
+],
+
+"capabilities": {
+"httpStreams": true,
+"anime": true
+},
+
+"catalogs": []
+}
