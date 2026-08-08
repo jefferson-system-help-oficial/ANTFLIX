@@ -1,0 +1,51 @@
+{
+"schemaVersion": 1,
+"id": "tmdb-addon",
+"name": "The Movie Database Addon",
+"version": "3.1.7",
+"enabled": true,
+
+"manifestUrl": "https://tmdb.elfhosted.com/N4IgTgDgJgRg1gUwJ4gFwgC4AYC0AzMBBHSWEAGnGhgFkEoBLAQwBUkIEBnNUCAe04YEYNBjABXBJQA2fAOZ9REqSBhMAxnChg+EJZIC+lBgDt108VAQBBKOOkY0mZRRAQdANwZWAkgFtYHygnMUlXQgxxMBN-QOD0UIRXDACYAAVCPAYADxCXSgALbwQAUQgGTj4rFgLxPxgTJgZpbgT8kGkmEzlxJjkk9AgMHAAhACVXQUImP1M5NABtAF1KdSYMJlk5VoXQbxDUgDpOoUFk9gGQPz4vJMpGv0uAGXWuDAACMYRpBCZOLkmBT4AHcfCYABJ8R76BBGPbxTBHE5vc4cJz-MAMAH3GbPV6CT7fX7-biUThA0EQqEDRJwkD7BJHMQIEyMbqoy7XW6uB6XFiEVlzQEgsGQ6GoWnkeEHWCHZmC9mUDAXdHCLGkkC8pz8lls+Zkimi6kwukMxGyjC6DlOLlYnm4pxpXT2JgiA0iqniyXSxkWq1KlXoDHq+3ikBOiAut0gckesU05SmhEpWVIX7R5Vo9C2u6ah3oACa6eFlPjJql9OTRzTrutQbV2LzYaLtfdpeNEsTFbNKZgxy6PT6ucznJudpxYZe3V6-RLRq9XZ95r7nWnQ7rMYbGq16Cng9nbfnCcMKxARV8JgAwqYEH5WH08mFVn8MJe+OITI5UABWNvWfpjOscxggA4iyhCtM4T4gCyTAwD8-4IIBGBCm00GxsCiHIXMADqDAYAUsQwNh7JobmUwMOoGBfHIDB8CYABizRCCIZGuIwtEbNIXw-H8CBMQ4wgmkAA/manifest.json",
+
+"icon": "https://tmdb.elfhosted.com/logo.png",
+"background": "https://tmdb.elfhosted.com/background.png",
+
+"roles": {
+"catalog": true,
+"metadata": true,
+"stream": false,
+"subtitle": false
+},
+
+"priority": {
+"catalog": 1000,
+"metadata": 1000,
+"stream": 0,
+"subtitle": 0
+},
+
+"behavior": {
+"catalogMode": "primary",
+"metadataMode": "primary",
+"streamMode": "disabled"
+},
+
+"types": [
+"movie",
+"series"
+],
+
+"idPrefixes": [
+"tmdb:",
+"tt"
+],
+
+"capabilities": {
+"search": true,
+"genres": true,
+"multiLanguage": true,
+"imdb": true,
+"configurable": true,
+"configurationRequired": false
+}
+}
