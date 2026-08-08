@@ -6,26 +6,30 @@
 "enabled": true,
 
 "manifestUrl": "https://27a5b2bfe3c0-stremio-brazilian-addon.baby-beamup.club/manifest.json",
+
 "icon": "https://i.ibb.co/YyPbHVT/icon.png",
 
+"addons": true,
+
 "roles": {
+"play": true,
 "catalog": true,
 "metadata": false,
-"stream": true,
 "subtitle": false
 },
 
 "priority": {
-"stream": 100,
+"play": 100,
 "catalog": 20,
 "metadata": 0,
 "subtitle": 0
 },
 
 "behavior": {
+"playMode": "primary",
 "catalogMode": "fallback",
-"streamMode": "primary",
-"metadataMode": "disabled"
+"metadataMode": "disabled",
+"subtitleMode": "disabled"
 },
 
 "types": [
