@@ -1,0 +1,55 @@
+hurl: https://27a5b2bfe3c0-stremio-brazilian-addon.baby-beamup.club/manifest.json
+addons:true
+categoria:play e catalago :
+{
+  "resources": [
+    "catalog",
+    "stream"
+  ],
+  "types": [
+    "movie"
+  ],
+  "idPrefixes": [
+    "tt"
+  ],
+  "_id": "5ea0fe827b4eda380cc2032d",
+  "id": "brazilian-addon",
+  "name": "Mico-Leão Dublado 🇧🇷",
+  "logo": "https://i.ibb.co/YyPbHVT/icon.png",
+  "version": "1.0.0",
+  "description": "Assista a FILMES dublados em português de GRAÇA! HD e FULLHD!",
+  "catalogs": [
+    {
+      "genres": [
+        "Ação",
+        "Animação",
+        "Aventura",
+        "Clássico",
+        "Comédia",
+        "Documentário",
+        "Drama",
+        "Fantasia",
+        "Ficção",
+        "Faroeste",
+        "Guerra",
+        "Músicas",
+        "Nacional",
+        "Policial",
+        "Romance",
+        "Suspense",
+        "Terror"
+      ],
+      "extraSupported": [
+        "search",
+        "genre",
+        "skip"
+      ],
+      "_id": "5ea0fe817b4eda380cc2032b",
+      "type": "movie",
+      "id": "BrazilianCatalog",
+      "name": "Filmes Dublados",
+      "__v": 0
+    }
+  ],
+  "__v": 0
+}
