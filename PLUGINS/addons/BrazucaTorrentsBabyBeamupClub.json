@@ -1,0 +1,50 @@
+{
+"schemaVersion": 1,
+"id": "com.stremio.brazuca.addon",
+"name": "Brazuca Torrents",
+"version": "0.1.1",
+"enabled": true,
+
+"manifestUrl": "https://94c8cb9f702d-brazuca-torrents.baby-beamup.club/manifest.json",
+"icon": "https://i.imgur.com/KVpfrAk.png",
+"background": "https://i.imgur.com/QnbEGow.png",
+
+"roles": {
+"catalog": false,
+"metadata": false,
+"stream": true,
+"subtitle": false
+},
+
+"priority": {
+"stream": 100,
+"catalog": 0,
+"metadata": 0,
+"subtitle": 0
+},
+
+"behavior": {
+"catalogMode": "disabled",
+"streamMode": "primary",
+"metadataMode": "disabled"
+},
+
+"types": [
+"movie",
+"series",
+"anime"
+],
+
+"idPrefixes": [
+"tt",
+"kitsu"
+],
+
+"capabilities": {
+"p2p": true,
+"configurable": true,
+"configurationRequired": false
+},
+
+"catalogs": []
+}
