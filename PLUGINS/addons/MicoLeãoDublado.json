@@ -1,55 +1,73 @@
-hurl: https://27a5b2bfe3c0-stremio-brazilian-addon.baby-beamup.club/manifest.json
-addons:true
-categoria:play e catalago :
 {
-  "resources": [
-    "catalog",
-    "stream"
-  ],
-  "types": [
-    "movie"
-  ],
-  "idPrefixes": [
-    "tt"
-  ],
-  "_id": "5ea0fe827b4eda380cc2032d",
-  "id": "brazilian-addon",
-  "name": "Mico-Leão Dublado 🇧🇷",
-  "logo": "https://i.ibb.co/YyPbHVT/icon.png",
-  "version": "1.0.0",
-  "description": "Assista a FILMES dublados em português de GRAÇA! HD e FULLHD!",
-  "catalogs": [
-    {
-      "genres": [
-        "Ação",
-        "Animação",
-        "Aventura",
-        "Clássico",
-        "Comédia",
-        "Documentário",
-        "Drama",
-        "Fantasia",
-        "Ficção",
-        "Faroeste",
-        "Guerra",
-        "Músicas",
-        "Nacional",
-        "Policial",
-        "Romance",
-        "Suspense",
-        "Terror"
-      ],
-      "extraSupported": [
-        "search",
-        "genre",
-        "skip"
-      ],
-      "_id": "5ea0fe817b4eda380cc2032b",
-      "type": "movie",
-      "id": "BrazilianCatalog",
-      "name": "Filmes Dublados",
-      "__v": 0
-    }
-  ],
-  "__v": 0
+"schemaVersion": 1,
+"id": "brazilian-addon",
+"name": "Mico-Leão Dublado 🇧🇷",
+"version": "1.0.0",
+"enabled": true,
+
+"manifestUrl": "https://27a5b2bfe3c0-stremio-brazilian-addon.baby-beamup.club/manifest.json",
+"icon": "https://i.ibb.co/YyPbHVT/icon.png",
+
+"roles": {
+"catalog": true,
+"metadata": false,
+"stream": true,
+"subtitle": false
+},
+
+"priority": {
+"stream": 100,
+"catalog": 20,
+"metadata": 0,
+"subtitle": 0
+},
+
+"behavior": {
+"catalogMode": "fallback",
+"streamMode": "primary",
+"metadataMode": "disabled"
+},
+
+"types": [
+"movie"
+],
+
+"idPrefixes": [
+"tt"
+],
+
+"catalogs": [
+{
+"id": "BrazilianCatalog",
+"name": "Filmes Dublados",
+"type": "movie",
+
+```
+  "supportsSearch": true,
+  "supportsGenre": true,
+  "supportsSkip": true,
+
+  "genres": [
+    "Ação",
+    "Animação",
+    "Aventura",
+    "Clássico",
+    "Comédia",
+    "Documentário",
+    "Drama",
+    "Fantasia",
+    "Ficção",
+    "Faroeste",
+    "Guerra",
+    "Músicas",
+    "Nacional",
+    "Policial",
+    "Romance",
+    "Suspense",
+    "Terror"
+  ]
+}
+```
+
+]
 }
