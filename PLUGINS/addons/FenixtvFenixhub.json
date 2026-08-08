@@ -1,0 +1,101 @@
+{
+"schemaVersion": 1,
+"id": "com.fenixflix.beta",
+"name": "Fenix TV",
+"version": "0.0.7",
+"enabled": true,
+
+"manifestUrl": "https://fenixtv.fenixhub.online/manifest.json",
+"icon": "https://i.imgur.com/VmzX9OK.png",
+"background": "https://i.imgur.com/FLhOxAU.jpeg",
+
+"roles": {
+"catalog": true,
+"metadata": true,
+"stream": true,
+"subtitle": false
+},
+
+"priority": {
+"stream": 100,
+"catalog": 100,
+"metadata": 80,
+"subtitle": 0
+},
+
+"behavior": {
+"catalogMode": "primary",
+"streamMode": "primary",
+"metadataMode": "primary"
+},
+
+"types": [
+"tv"
+],
+
+"idPrefixes": [
+"tt",
+"tmdb",
+"tv"
+],
+
+"capabilities": {
+"liveTv": true,
+"search": true,
+"genre": true
+},
+
+"catalogs": [
+{
+"id": "tv_canais",
+"type": "tv",
+"name": "Canais ao vivo",
+"posterShape": "square",
+
+```
+  "supportsSearch": true,
+  "supportsGenre": true,
+
+  "genres": [
+    "TV",
+    "Animes 24h",
+    "Séries 24h",
+    "Desenhos 24h"
+  ]
+},
+{
+  "id": "tv_rde",
+  "type": "tv",
+  "name": "Canais de TV",
+  "posterShape": "square",
+
+  "supportsSearch": true,
+  "supportsGenre": true,
+
+  "genres": [
+    "TV",
+    "Animes 24h",
+    "Séries 24h",
+    "Desenhos 24h"
+  ]
+},
+{
+  "id": "tv_novo",
+  "type": "tv",
+  "name": "Canais de TV (RD)",
+  "posterShape": "square",
+
+  "supportsSearch": true,
+  "supportsGenre": true,
+
+  "genres": [
+    "TV",
+    "Animes 24h",
+    "Séries 24h",
+    "Desenhos 24h"
+  ]
+}
+```
+
+]
+}
