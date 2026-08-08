@@ -1,0 +1,64 @@
+{
+  "name": "FenixFlix",
+  "id": "com.fenixflix",
+  "version": "1.1.1",
+  "url": "https://fenixflix.fenixhub.online/manifest.json",
+  "logo": "https://i.imgur.com/e6skOZ8.png",
+  "background": "https://dl.strem.io/addon-background.jpg",
+  "description": "Addon de filmes, séries, doramas e animes dublados e legendados em Português (PT-BR).",
+
+  "addons": true,
+
+  "categoria": [
+    "play",
+    "catalog"
+  ],
+
+  "prioridade": {
+    "play": 1,
+    "catalog": 2
+  },
+
+  "funcao": {
+    "play": true,
+    "catalog": true
+  },
+
+  "tipos": [
+    "movie",
+    "series"
+  ],
+
+  "idPrefixes": [
+    "tt",
+    "tmdb"
+  ],
+
+  "catalogos": [
+    {
+      "tipo": "movie",
+      "id": "populares_fenix",
+      "nome": "Populares (Fenix)"
+    },
+    {
+      "tipo": "movie",
+      "id": "recentes_servidor",
+      "nome": "Recém Adicionado (Fenix)"
+    },
+    {
+      "tipo": "series",
+      "id": "populares_fenix",
+      "nome": "Populares (Fenix)"
+    },
+    {
+      "tipo": "series",
+      "id": "recentes_servidor",
+      "nome": "Recém Adicionado (Fenix)"
+    }
+  ],
+
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
